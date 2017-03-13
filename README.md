@@ -3,8 +3,8 @@
 ## Description ##
 ElasticSearch has fast become a favorite in the realm of search engines over the past few years.  
 It has made the full text search more accessible by broadening its scope.  
-Its intelligent architecture has made the advanced technology of Lucene, which comprises its core.  
-Easy to use for any developer combined with powerful query language.
+Its intelligent architecture has made the advanced technology of Lucene, which comprises its core, more accessible and scalable.  
+Easy to use for any developer combined with powerful query language made it an attractive choice for agile teams.
 Automatic sharding, replication, and healing makes ElasticSearch rewarding to operate.
 
 ## Audience ##
@@ -19,14 +19,14 @@ Automatic sharding, replication, and healing makes ElasticSearch rewarding to op
 ## Prerequisites ##
 * Database development and basic administration experience is required
 * Familiarity with JSON format
-* Familiarity with linux command line
+* Experience with linux command line
 
 ## Outline ##
 ### Introduction ###
 * Terminology, basic concepts, implementation, setup, and basic operations
 * Data modeling with ElasticSearch
 * Overview of best practices
-* Overview of distributed database architecture
+* Dive into distributed database architecture
 * Understanding ElasticSearch cluster, shards, and replicas
 
 ### ElasticSearch Index ###
@@ -35,7 +35,7 @@ Automatic sharding, replication, and healing makes ElasticSearch rewarding to op
 
 ### Search ###
 * Understanding search Query DSL
-* Search components: aggregations, search types, highlighting and other options.
+* Search components: aggregations, search types, highlighting and other options
 * Overview of Filter DSL compared to Query DSL
 * Aggregation Queries
 
