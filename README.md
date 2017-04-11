@@ -1,4 +1,4 @@
-# ElasticSearch #
+# Elastic #
 
 ## Description ##
 Elastic Search has become a favorite in the realm of search engines by broadening its scope and ease-of-adoption  
@@ -8,14 +8,14 @@ Variety of offerings for data ingest makes Elastic product suite appealing for l
 Modern architecture of distributed database and share-nothing approach is luring Linux's containers enthusiasts into flexibility of Elastic Search deployment model  
 
 ## Audience ##
-* Developers who wants to be familiar with NoSQL Databases and Search Engines
-* System Admins who are familiar with Relational Databases but who have little experience with new Polyglot Persistence model
+* Developers who wants to be familiar with NoSQL Databases and with modern Search Engines
+* System Admins who are familiar with Relational Databases, but who have little experience with new Polyglot Persistence model
 * DevOps looking to extend their knowledge of Elastic Search for the benefit of logs processing with various deployment models
 
 ## Course's Objectives ##
-* Bring ElasticSearch novices to the level where he/she would feel comfortable with installing, configuring and using ElasticSearch
+* Bring Elastic Search novices to the level where they would feel comfortable with installing, configuring and using ElasticSearch
 * Explore ElasticSearch Dsl: query, filter, and aggregation
-* Install and configure Filebeat for log processing 
+* Install and configure Filebeat for logs ingest 
 * Install and configure Kibana
 * Deploy Elastic Search using Docker
 
@@ -35,18 +35,18 @@ Modern architecture of distributed database and share-nothing approach is luring
 
 ### Search, Filter and Aggregation Dsl ###
 * Understanding search Query DSL
-* Search components: aggregations, search types, highlighting and other options
 * Overview of Filter DSL compared to Query DSL
-* Aggregation Queries
+* Syntax for Aggregation Queries
 
 ### Kibana ###
-* Setup and Configure Discover
+* Setup and configuration
+* Discover
 * Visualize
 * Dashboard
 
 ### Filebeat ###
-* Setup up and configuration
-* Sending logs to Elastic Search
+* Setup up and initial configuration
+* Sending logs to Elastic Search using Filebeat
 * Using Kibana to visualize logs data
 
 ### ElasticSearch Docker Deployment ###
