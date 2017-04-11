@@ -1,11 +1,11 @@
 # ElasticSearch #
 
 ## Description ##
-ElasticSearch has fast become a favorite in the realm of search engines by broadening its scope and ease-of-adoption.  
-Easy to use for any developer combined with powerful query language made Elastic Search an attractive choice for agile teams.
-Automatic sharding, replication, and healing makes Elastic Search rewarding to configure and to operate for system administrators 
-Variety of offerings for data ingest makes Elastic product suite appealing for logs processing and aggregation
-Modern architecture of distributed database and share-nothing approach is luring Linux's containers enthusiasts into flexibility of Elastic Search deployment model 
+Elastic Search has become a favorite in the realm of search engines by broadening its scope and ease-of-adoption  
+Easy to use for any developer combined with powerful query language made Elastic Search an attractive choice for agile teams  
+Automatic sharding, replication, and healing makes Elastic Search rewarding to configure and to operate for system administrators  
+Variety of offerings for data ingest makes Elastic product suite appealing for logs processing and aggregation  
+Modern architecture of distributed database and share-nothing approach is luring Linux's containers enthusiasts into flexibility of Elastic Search deployment model  
 
 ## Audience ##
 * Developers who wants to be familiar with NoSQL Databases and Search Engines
