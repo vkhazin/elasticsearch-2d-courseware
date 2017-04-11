@@ -13,10 +13,10 @@ Modern architecture of distributed database and share-nothing approach is luring
 * DevOps looking to extend their knowledge of Elastic Search for the benefit of logs processing with various deployment models
 
 ## Course's Objectives ##
-* Bring Elastic Search novices to the level where they would feel comfortable with installing, configuring and using ElasticSearch
+* Bring Elastic Search novices to the level where they would feel familiar with installing, configuring and using Elastic products
 * Explore ElasticSearch Dsl: query, filter, and aggregation
 * Install and configure Filebeat for logs ingest 
-* Install and configure Kibana
+* Install and configure Kibana for data analysis
 * Deploy Elastic Search using Docker
 
 ## Prerequisites ##
@@ -45,14 +45,14 @@ Modern architecture of distributed database and share-nothing approach is luring
 * Dashboard
 
 ### Filebeat ###
-* Setup up and initial configuration
+* Setup and initial configuration
 * Sending logs to Elastic Search using Filebeat
 * Using Kibana to visualize logs data
 
 ### ElasticSearch Docker Deployment ###
-* Setup up and configuration
-* Data Persistency
-* Cluster management consideration
+* Setup and configuration
+* Data Persistency considerations
+* Cluster management considerations
 
 ### Preparing for Production ###
 * Discussion on capacity planning and data population
