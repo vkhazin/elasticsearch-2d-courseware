@@ -5,7 +5,7 @@
 
 ## Chapter 0: Overview ##
 * [Introduction](./content/chapter-00/Intro.md)
-* [Why ElasticSearch](./content/chapter-00/WhyElasticSearch.md)
+* [Why ElasticSearch](./content/chapter-00/WhyElastic.md)
 * [Course objectives](./content/chapter-00/CourseObjectives.md)
 * [Intended Audience](./content/chapter-00/Audience.md)
 * [Prerequisites](./content/chapter-00/Prerequisites.md)
@@ -55,7 +55,7 @@
 ## Chapter 4: Aggregation ##
 * [Introduction](./content/chapter-04/Intro.md)
 * [Data Aggregation](./content/chapter-04/DataAggregation.md)
-* [Aggregation Query](./content/chapter-04/Aggregation.md)
+* [Aggregation Query](./content/chapter-04/AggregationQuery.md)
 * [Terms Aggregation](./content/chapter-04/TermsAggregation.md)
 * [Date Histogram Aggregation](./content/chapter-04/DateHistogramAggregation.md)
 * [Range Aggregation](./content/chapter-04/RangeAggregation.md)

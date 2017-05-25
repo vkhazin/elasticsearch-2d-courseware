@@ -7,4 +7,4 @@
 * Lucene based
 * Impressive scalability and performance
 * Kibana offers ever expanding user interface options
-* Filebeat along with other beats streamline data ingest
+* Filebeat along with other beats streamlines data ingest

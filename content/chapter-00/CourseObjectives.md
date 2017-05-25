@@ -5,3 +5,4 @@
 * Install and configure Filebeat for logs ingest 
 * Install and configure Kibana for data analysis
 * Deploy Elastic Search using Docker
+* Review Elastic Hosting Options
