@@ -4,7 +4,8 @@ node_js:
   
 script:
   - npm install
+  - npm install gitbook-cli -g
   - npm install surge -g
   - gitbook install
   - gitbook build
-  - surge --domain http://unsuitable-turkey.surge.sh/
+  - surge --domain http://unsuitable-turkey.surge.sh/ --project ./_book
