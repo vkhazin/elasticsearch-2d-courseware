@@ -1,8 +1,6 @@
 # Chapter 4: Summary #
 
-* What's the difference between data aggregation and nested-documents?
-* How to establish parent-child relationships?
-* How to index child document?
-* How to move child document to another parent?
-* What happens to child documents when parent is deleted?
-* What aggregation types/queries do you recall and when to use them?
+* What's the data aggregation?
+* Define purpose of Terms Aggregation?
+* What's the difference between Date Histogram and Range Aggregations?
+* Do we need execute Aggregation separately from a Search request?

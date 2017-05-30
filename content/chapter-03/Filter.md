@@ -5,4 +5,4 @@
 * Filtering context is a 'non-scoring' or 'filtering' query - yes/no answer, no score is computed
 * Typical use of query is to find a best matching document, similar to Google Search
 * Scoring calculates how relevant each document is, relative to the search criteria
-* Using Search Dsl in filtering context is filtering documents out
+* Filtering is used to exclude documents from search result without computing a score

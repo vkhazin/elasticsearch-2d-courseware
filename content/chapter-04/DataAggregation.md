@@ -1,6 +1,6 @@
 # Data Aggregation #
 
-* Main entity includes or aggregates related data in it
+* Data de-normalized into main entity to include all related data in it
 * Directors, crew, producers, images, and etc... How to index it all?
 * Example of movie data:
 ```

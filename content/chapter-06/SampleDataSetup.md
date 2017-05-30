@@ -1,10 +1,11 @@
 # Sample Data Setup #
 
 * For discovery and visualization we will need some data
-* Logs collected by logstash "schema":
+* Logstash files published on the Internet were used as a sample data set
+* Logstash "schema":
 ```
 {
-  "@timestamp" : "2015-05-18T12:20:35.324Z",
+  "@timestamp" : "2015-05-18T12:20:35.324Z", 
   "ip" : "250.252.55.241",
   "extension" : "jpg",
   "response" : "200",

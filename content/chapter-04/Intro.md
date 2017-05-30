@@ -2,4 +2,4 @@
 
 * Introduction to data aggregations
 * Aggregation queries
-* Aggregation Exercise
+* Aggregation exercise

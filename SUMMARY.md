@@ -67,6 +67,7 @@
 * [Beats](./content/chapter-06/Beats.md)
 * [Filebeat](./content/chapter-06/Filebeat.md)
 * [Filebeat Exercise](./content/chapter-06/FilebeatEx.md)
+* [Summary](./content/chapter-05/Summary.md)
 
 ## Chapter 6: Kibana ##
 * [Introduction](./content/chapter-06/Intro.md)
