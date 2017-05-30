@@ -1,4 +1,4 @@
-# Course: Elastic #
+# Course: Elastic https://travis-ci.org/vkhazin/elasticsearch-courseware-2d.svg?branch=master#
 
 <p align="right"><i><a href="https://www.linkedin.com/in/vkhazin" target="_blank">by Vlad Khazin</a></i></p>
 
