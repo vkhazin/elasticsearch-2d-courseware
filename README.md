@@ -1,6 +1,16 @@
 # Course: Elastic #
 
-<p align="right"><i><a href="https://www.linkedin.com/in/vkhazin" target="_blank">by Vlad Khazin</a></i></p>
+<p align="right">
+    <i>
+        <a href="https://www.linkedin.com/in/vkhazin" target="_blank">by Vlad Khazin</a>
+    </i>
+    &nbsp;
+    <a>
+        <img alt="Build Status"
+             style="border-width:0"
+             src="https://travis-ci.org/vkhazin/elasticsearch-courseware-2d.svg?branch=master">
+    </a>    
+</p>
 
 * Course materials can be accessed [online1](https://elasticsearch-courseware-2d.icssolutions.ca) or [online2](http://elasticsearch-courseware-2d-backup.icssolutions.ca/)
 * If you did not have a chance to fill-out <a target="_blank" href="https://www.surveymonkey.com/r/JC5TMS8">pre-course survey, please do so now</a>
