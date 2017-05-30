@@ -8,4 +8,4 @@ script:
   - npm install surge -g
   - gitbook install
   - gitbook build
-  - surge --domain http://unsuitable-turkey.surge.sh/ --project ./_book
+  - surge --domain http://elasticsearch-courseware-2d-backup.icssolutions.ca/ --project ./_book

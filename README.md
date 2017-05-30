@@ -2,7 +2,7 @@
 
 <p align="right"><i><a href="https://www.linkedin.com/in/vkhazin" target="_blank">by Vlad Khazin</a></i></p>
 
-* Course materials can be accessed [online1](https://elasticsearch-courseware-2d.icssolutions.ca) or [online2](http://unsuitable-turkey.surge.sh/)
+* Course materials can be accessed [online1](https://elasticsearch-courseware-2d.icssolutions.ca) or [online2](http://elasticsearch-courseware-2d-backup.icssolutions.ca/)
 * If you did not have a chance to fill-out <a target="_blank" href="https://www.surveymonkey.com/r/JC5TMS8">pre-course survey, please do so now</a>
 * Take a moment to register at GitHub.com - you can clone the course repo and make your own comments throughout the course
 * Select <a href="https://github.com/vkhazin/elasticsearch-courseware-2d" target="_blank">repository url</a> and then 'fork' link to create a repo for yourself 
