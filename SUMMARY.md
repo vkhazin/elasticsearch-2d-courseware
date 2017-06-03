@@ -87,7 +87,6 @@
 * [Capacity Planning](./content/chapter-07/CapacityPlanning.md)
 * [Memory Planning](./content/chapter-07/MemoryPlanning.md)
 * [CPU Planning](./content/chapter-07/CpuPlanning.md)
-* [Cluster State](./content/chapter-07/ClusterState.md)
 * [Network Capacity](./content/chapter-07/NetworkCapacity.md)
 * [Performance Testing](./content/chapter-07/PerformanceTesting.md)
 * [Monitoring](./content/chapter-07/Monitoring.md)
@@ -97,12 +96,9 @@
 * [Indices vs. Types](./content/chapter-07/IndexType.md)
 * [Query Choices](./content/chapter-07/QueryChoices.md)
 * [Tuning References](./content/chapter-07/TuningReferences.md)
-* [Data Population](./content/chapter-07/DataPopulation.md)
-* [Data Synchronization](./content/chapter-07/DataSynchronization.md)
 * [Data Re-Indexing](./content/chapter-07/DataReindexing.md)
 * [Hosted ElasticSearch](./content/chapter-07/HostedElasticSearch.md)
 * [Hosted vs Self-Managed](./content/chapter-07/HostedVsSelfManaged.md)
-* [Data Population Exercise](./content/chapter-07/DataPopulationEx.md)
 * [Summary](./content/chapter-07/Summary.md)
 
 ## Chapter 8: Course Summary ##

@@ -4,4 +4,5 @@
 * What are pressures on memory?
 * What are requirements for storage?
 * What are anticipated impacts on Cpu?
-* What is Cluster State and what impact it may have on performance?
+* What are the considerations for running Elastic Search in container?
+* What are the considerations for choosing between hosted and self-managed hosting?
