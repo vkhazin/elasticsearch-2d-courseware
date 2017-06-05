@@ -88,7 +88,7 @@
 * [Docker Setup Exercise](./content/chapter-07/DockerSetupEx.md)
 * [Elastic in Docker](./content/chapter-07/ElasticDocker.md)
 * [Elastic in Docker Exercise](./content/chapter-07/ElasticDockerEx.md)
-* [Docker Cluster](./content/chapter-07/EasticDockerEx.md)
+* [Docker Cluster](./content/chapter-07/DockerCluster.md)
 * [Summary](./content/chapter-07/Summary.md)
 
 ## Chapter 8: Preparing for Productions
