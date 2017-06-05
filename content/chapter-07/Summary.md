@@ -1,8 +1,7 @@
-# Chapter 6: Summary #
+# Chapter 7: Summary #
 
-* What are the considerations for capacity planning?
-* What are pressures on memory?
-* What are requirements for storage?
-* What are anticipated impacts on Cpu?
-* What are the considerations for running Elastic Search in container?
-* What are the considerations for choosing between hosted and self-managed hosting?
+* What's Docker?
+* How can you create a Docker image?
+* How do you run a Docker image?
+* How do you scale from one Docker host to many?
+* What are the cloud hosting options for Docker Images?

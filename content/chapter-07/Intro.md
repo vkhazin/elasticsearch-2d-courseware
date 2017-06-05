@@ -1,6 +1,6 @@
-# Chapter 6: Preparing for Production #
+# Chapter 7: Running in a Container #
 
-* Discussion on capacity planning and data population
-* Performance tuning and monitoring
-* Running Elastic Search in a container
-* Hosted Elastic Search
+* High-level Introduction to Docker
+* Composing Docker image for Elastic Search
+* Running Docker container
+* Container Specific Considerations

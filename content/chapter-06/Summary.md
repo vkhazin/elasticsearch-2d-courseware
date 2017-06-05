@@ -1,4 +1,4 @@
-# Chapter 5: Summary #
+# Chapter 6: Summary #
 
 * What's Kibana?
 * How to install Kibana?
