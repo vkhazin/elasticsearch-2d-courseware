@@ -1311,7 +1311,20 @@
             
         </li>
     
-        <li class="chapter " data-level="10.17" data-path="../chapter-08/Summary.html">
+        <li class="chapter " data-level="10.17" data-path="../chapter-08/VMvsContainer.html">
+            
+                <a href="../chapter-08/VMvsContainer.html">
+            
+                    
+                    VM vs Container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.18" data-path="../chapter-08/Summary.html">
             
                 <a href="../chapter-08/Summary.html">
             
@@ -1327,13 +1340,13 @@
 
     
         
-        <li class="header">Chapter 8: Course Summary</li>
+        <li class="header">Chapter 9: Course Summary</li>
         
         
     
-        <li class="chapter " data-level="11.1" data-path="../chapter-08/Summary.html">
+        <li class="chapter " data-level="11.1" data-path="../chapter-09/Summary.html">
             
-                <a href="../chapter-08/Summary.html">
+                <a href="../chapter-09/Summary.html">
             
                     
                     What we learned
@@ -1392,7 +1405,10 @@
                                 <h1 id="docker-setup-exercise">Docker Setup Exercise</h1>
 <ul>
 <li>Login into your sandbox</li>
-<li>Since previously installed Elastic is running, we will use a different port: 9201 for api</li>
+<li>Since previously installed Elastic is running, we will use a different port: 9201 for api<pre><code>sudo docker run -d -p 9201:9200 -e &quot;http.host=0.0.0.0&quot; -e &quot;transport.host=127.0.0.1&quot; docker.elastic.co/elasticsearch/elasticsearch:5.4.1
+</code></pre></li>
+<li>-d: run detached not to take over command prompt</li>
+<li>-e: parameters accepted/expected by the image</li>
 <li>Give it few moments to start and then test:<pre><code>curl elastic:changeme@localhost:9201
 </code></pre></li>
 <li>Expected output:<pre><code>{
@@ -1411,21 +1427,15 @@
 </code></pre></li>
 <li>Using docker cli to list containers:<pre><code>sudo docker ps -a
 </code></pre></li>
-<li>Expected output:<pre><code>CONTAINER ID        IMAGE                                                 COMMAND                  CREATED             STATUS                      PORTS                              NAMES
-8ed07e81b59c        docker.elastic.co/elasticsearch/elasticsearch:5.4.1   &quot;/bin/bash bin/es-doc&quot;   12 minutes ago      Up 12 minutes               9300/tcp, 0.0.0.0:9201-&gt;9200/tcp   modest_almeida
-d17b7a47d139        hello-world                                           &quot;/hello&quot;                 57 minutes ago      Exited (0) 57 minutes ago                                      distracted_darwin
-</code></pre></li>
-<li>To stop running container, copy CONTAINER_ID to replace in the command below:
-```
-sudo docker stop 8ed07e81b59c</li>
+<li>Expected output is list with two containers: hello-world and elastic</li>
+<li>To stop running container, copy container id to replace in the command below:</li>
 </ul>
-<pre><code>* Using docker cli to list containers to confirm none are running:
-</code></pre><p>sudo docker ps -a</p>
-<pre><code>* Expected output:
-</code></pre><p>CONTAINER ID        IMAGE                                                 COMMAND                  CREATED             STATUS                        PORTS               NAMES
-8ed07e81b59c        docker.elastic.co/elasticsearch/elasticsearch:5.4.1   &quot;/bin/bash bin/es-doc&quot;   14 minutes ago      Exited (143) 10 seconds ago                       modest_almeida
-d17b7a47d139        hello-world                                           &quot;/hello&quot;                 59 minutes ago      Exited (0) 59 minutes ago                         distracted_darwin</p>
-<p>```</p>
+<pre><code>sudo docker stop 8ed07e81b59c
+</code></pre><ul>
+<li>Using docker cli to list containers to confirm none are running:<pre><code>sudo docker ps -a
+</code></pre></li>
+<li>Expected output is a list of two containers previously launched: hello-world and elasticsearch</li>
+</ul>
 
                                 
                                 </section>
@@ -1469,7 +1479,7 @@ d17b7a47d139        hello-world                                           &quot;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Elastic in Docker Exercise","level":"9.5","depth":1,"next":{"title":"Docker Cluster","level":"9.6","depth":1,"path":"content/chapter-07/DockerCluster.md","ref":"./content/chapter-07/DockerCluster.md","articles":[]},"previous":{"title":"Elastic in Docker","level":"9.4","depth":1,"path":"content/chapter-07/ElasticDocker.md","ref":"./content/chapter-07/ElasticDocker.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["footer"],"pluginsConfig":{"search":{},"layout":{"footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"token":"UA-99005189-1"},"footer":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-07/ElasticDockerEx.md","mtime":"2017-06-05T16:30:12.887Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-05T18:02:14.251Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Elastic in Docker Exercise","level":"9.5","depth":1,"next":{"title":"Docker Cluster","level":"9.6","depth":1,"path":"content/chapter-07/DockerCluster.md","ref":"./content/chapter-07/DockerCluster.md","articles":[]},"previous":{"title":"Elastic in Docker","level":"9.4","depth":1,"path":"content/chapter-07/ElasticDocker.md","ref":"./content/chapter-07/ElasticDocker.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["footer"],"pluginsConfig":{"search":{},"layout":{"footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"token":"UA-99005189-1"},"footer":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-07/ElasticDockerEx.md","mtime":"2017-06-08T18:11:34.291Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T18:58:44.702Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div><center>

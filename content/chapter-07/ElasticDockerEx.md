@@ -2,6 +2,11 @@
 
 * Login into your sandbox
 * Since previously installed Elastic is running, we will use a different port: 9201 for api
+```
+ sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" docker.elastic.co/elasticsearch/elasticsearch:5.4.1
+```
+* -d: run detached not to take over command prompt
+* -e: parameters accepted/expected by the image
 * Give it few moments to start and then test:
 ```
  curl elastic:changeme@localhost:9201
@@ -26,13 +31,9 @@
 ```
 sudo docker ps -a
 ```
-* Expected output:
-```
-CONTAINER ID        IMAGE                                                 COMMAND                  CREATED             STATUS                      PORTS                              NAMES
-8ed07e81b59c        docker.elastic.co/elasticsearch/elasticsearch:5.4.1   "/bin/bash bin/es-doc"   12 minutes ago      Up 12 minutes               9300/tcp, 0.0.0.0:9201->9200/tcp   modest_almeida
-d17b7a47d139        hello-world                                           "/hello"                 57 minutes ago      Exited (0) 57 minutes ago                                      distracted_darwin
-```
-* To stop running container, copy CONTAINER_ID to replace in the command below:
+* Expected output is list with two containers: hello-world and elastic
+* To stop running container, copy container id to replace in the command below:
+
 ```
 sudo docker stop 8ed07e81b59c
 
@@ -41,10 +42,4 @@ sudo docker stop 8ed07e81b59c
 ```
 sudo docker ps -a
 ```
-* Expected output:
-```
-CONTAINER ID        IMAGE                                                 COMMAND                  CREATED             STATUS                        PORTS               NAMES
-8ed07e81b59c        docker.elastic.co/elasticsearch/elasticsearch:5.4.1   "/bin/bash bin/es-doc"   14 minutes ago      Exited (143) 10 seconds ago                       modest_almeida
-d17b7a47d139        hello-world                                           "/hello"                 59 minutes ago      Exited (0) 59 minutes ago                         distracted_darwin
-
-```
+* Expected output is a list of two containers previously launched: hello-world and elasticsearch

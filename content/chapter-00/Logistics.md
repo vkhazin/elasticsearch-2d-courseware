@@ -6,7 +6,7 @@
 * Afternoon breaks: around 14:30 and 16:00 for 15 min each 
 * Finish at 17:30
 * Materials are available on-line during and after the course
-* Materials contain external links
+* Materials contain external links - please follow them as we paddle along
 * Exercises are mini-hackathons, no step-by-step instructions provided
 * Questions, open discussions, and comments are encouraged
 * Keep it professional and polite

@@ -1311,7 +1311,20 @@
             
         </li>
     
-        <li class="chapter " data-level="10.17" data-path="../chapter-08/Summary.html">
+        <li class="chapter " data-level="10.17" data-path="../chapter-08/VMvsContainer.html">
+            
+                <a href="../chapter-08/VMvsContainer.html">
+            
+                    
+                    VM vs Container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.18" data-path="../chapter-08/Summary.html">
             
                 <a href="../chapter-08/Summary.html">
             
@@ -1327,13 +1340,13 @@
 
     
         
-        <li class="header">Chapter 8: Course Summary</li>
+        <li class="header">Chapter 9: Course Summary</li>
         
         
     
-        <li class="chapter " data-level="11.1" data-path="../chapter-08/Summary.html">
+        <li class="chapter " data-level="11.1" data-path="../chapter-09/Summary.html">
             
-                <a href="../chapter-08/Summary.html">
+                <a href="../chapter-09/Summary.html">
             
                     
                     What we learned
@@ -1396,37 +1409,23 @@
 <li>Alternatively, by downloading from <a href="latest%20version%20from%20download.docker.com" target="_blank">download.docker.com</a></li>
 <li>Checking that docker cli (command line interface) is installed:<pre><code>docker --version
 </code></pre></li>
-<li>Checking that docker daemon is running:<pre><code>sudo docker images
+<li>Checking that docker daemon is running<pre><code>sudo docker images
 </code></pre></li>
-<li>Expected output is an empty list:<br>```
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</li>
+<li><p>Expected output is an empty list as we have not created/pulled any images</p>
+</li>
+<li><p>Running your first container:</p>
+<pre><code>sudo docker run hello-world
+</code></pre></li>
+<li>Expected output:<pre><code>78445dd45222: Pull complete  
+Digest: sha256:c5515758d4c5e1e838e9cd307f6c6a0d620b5e07e6f927b07d05f6d12a1ac8d7  
+Status: Downloaded newer image for hello-world:latest  
+Hello from Docker!  
+... more text comes here...
+</code></pre></li>
+<li>List your container:<pre><code>sudo docker ps -a
+</code></pre></li>
+<li>Expected output is a list with one item on it</li>
 </ul>
-<pre><code>* Running your first container:
-</code></pre><p>sudo docker run hello-world</p>
-<pre><code>* Expected output:
-</code></pre><p>78445dd45222: Pull complete
-Digest: sha256:c5515758d4c5e1e838e9cd307f6c6a0d620b5e07e6f927b07d05f6d12a1ac8d7
-Status: Downloaded newer image for hello-world:latest</p>
-<p>Hello from Docker!
-This message shows that your installation appears to be working correctly.</p>
-<p>To generate this message, Docker took the following steps:</p>
-<ol>
-<li>The Docker client contacted the Docker daemon.</li>
-<li>The Docker daemon pulled the &quot;hello-world&quot; image from the Docker Hub.</li>
-<li>The Docker daemon created a new container from that image which runs the
-executable that produces the output you are currently reading.</li>
-<li>The Docker daemon streamed that output to the Docker client, which sent it
-to your terminal.</li>
-</ol>
-<p>To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash</p>
-<p>Share images, automate workflows, and more with a free Docker ID:
- <a href="https://cloud.docker.com/" target="_blank">https://cloud.docker.com/</a></p>
-<p>For more examples and ideas, visit:
- <a href="https://docs.docker.com/engine/userguide/" target="_blank">https://docs.docker.com/engine/userguide/</a></p>
-<pre><code>* List your container:
-</code></pre><p>sudo docker ps -a
-```</p>
 
                                 
                                 </section>
@@ -1470,7 +1469,7 @@ to your terminal.</li>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Docker Setup Exercise","level":"9.3","depth":1,"next":{"title":"Elastic in Docker","level":"9.4","depth":1,"path":"content/chapter-07/ElasticDocker.md","ref":"./content/chapter-07/ElasticDocker.md","articles":[]},"previous":{"title":"Docker Overview","level":"9.2","depth":1,"path":"content/chapter-07/DockerOverview.md","ref":"./content/chapter-07/DockerOverview.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["footer"],"pluginsConfig":{"search":{},"layout":{"footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"token":"UA-99005189-1"},"footer":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-07/DockerSetupEx.md","mtime":"2017-06-05T16:25:42.543Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-05T18:02:14.251Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Docker Setup Exercise","level":"9.3","depth":1,"next":{"title":"Elastic in Docker","level":"9.4","depth":1,"path":"content/chapter-07/ElasticDocker.md","ref":"./content/chapter-07/ElasticDocker.md","articles":[]},"previous":{"title":"Docker Overview","level":"9.2","depth":1,"path":"content/chapter-07/DockerOverview.md","ref":"./content/chapter-07/DockerOverview.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["footer"],"pluginsConfig":{"search":{},"layout":{"footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"token":"UA-99005189-1"},"footer":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-07/DockerSetupEx.md","mtime":"2017-06-08T14:56:45.505Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T18:58:44.702Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div><center>

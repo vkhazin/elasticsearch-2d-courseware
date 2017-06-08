@@ -108,7 +108,8 @@
 * [Data Re-Indexing](./content/chapter-08/DataReindexing.md)
 * [Hosted ElasticSearch](./content/chapter-08/HostedElasticSearch.md)
 * [Hosted vs Self-Managed](./content/chapter-08/HostedVsSelfManaged.md)
+* [VM vs Container](./content/chapter-08/VMvsContainer.md)
 * [Summary](./content/chapter-08/Summary.md)
 
-## Chapter 8: Course Summary ##
-* [What we learned](./content/chapter-08/Summary.md)
+## Chapter 9: Course Summary ##
+* [What we learned](./content/chapter-09/Summary.md)
