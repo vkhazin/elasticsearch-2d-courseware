@@ -1,6 +1,10 @@
 # One Node Setup Exercise #
 
-* Login into your sandbox
+* Login into your sandbox:
+```
+ssh ubuntu@vkhazin.end-points.io
+```
+* Where vkhazin is first portion of your corporate email address, e.g. vkhazin@domain.com
 * Update distro using terminal window:
 ```
 sudo apt-get update && sudo apt-get install apt-transport-https -y
