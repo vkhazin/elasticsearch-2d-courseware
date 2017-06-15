@@ -1,10 +1,11 @@
 # Logistics #
 
-* Start at 9:30
+* All times are in Paris Time Zone
+* Start at 8:30
 * Morning break around 10:45 for 15 min
 * Lunch break 12:00 to 13:00
 * Afternoon breaks: around 14:30 and 16:00 for 15 min each 
-* Finish at 17:30
+* Finish at 16:30
 * Materials are available on-line during and after the course
 * Materials contain external links - please follow them as we paddle along
 * Exercises are mini-hackathons, no step-by-step instructions provided
