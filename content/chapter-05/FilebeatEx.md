@@ -16,23 +16,25 @@ sudo apt-get update && sudo apt-get install filebeat
 ```
 sudo nano /etc/filebeat/filebeat.yml
 ```
-* Important settings:
+* Important settings:  
 ```
-- input_type: log  
-  paths:  
-    - /var/log/*.log  
+  - input_type: log  
+    paths:  
+      - /var/log/*.log  
 
-output.elasticsearch:  
-  hosts: ["localhost:9200"]  
-  template.enabled: true  
-  template.path: "/etc/filebeat/filebeat.template.json"  
-  template.overwrite: false  
-  index: "filebeat"  
+  output.elasticsearch:  
+    hosts: ["localhost:9200"]  
+    template.enabled: true  
+    template.path: "/etc/filebeat/filebeat.template.json"  
+    template.overwrite: false  
+    index: "filebeat"  
 ```
-* Start Filebeat service and check the status:
+* Start Filebeat service and check the status:  
 ```
 sudo service filebeat start && sudo service filebeat status
 ```
 * Query ElasticSearch using culr to confirm new index has been created: 'filebeat':  
+```
 curl localhost:9200/_cat/indices
-* Query the data inside the newly created index
+```
+* Query the data inside the newly created index  

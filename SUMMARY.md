@@ -75,10 +75,16 @@
 * [Setup Exercise](./content/chapter-06/SetupEx.md)
 * [Discover](./content/chapter-06/Discover.md)
 * [Visualize](./content/chapter-06/Visualize.md)
+* [Data Table Exercise](./content/chapter-06/DataTableEx.md)
+* [Metric](./content/chapter-06/Metric.md)
+* [Metric Exercise](./content/chapter-06/MetricEx.md)
 * [Vertical Bar Chart](./content/chapter-06/VerticalBarChart.md)
 * [Vertical Bar Chart Exercise](./content/chapter-06/VerticalBarChartEx.md)
+* [Tag Cloud](./content/chapter-06/TagCloud.md)
 * [Tile Map](./content/chapter-06/TileMap.md)
 * [Dashboard](./content/chapter-06/Dashboard.md)
+* [Timelion](./content/chapter-06/Timelion.md)
+* [Console](./content/chapter-06/Console.md)
 * [Summary](./content/chapter-06/Summary.md)
 
 ## Chapter 7: Running in a Container
@@ -110,5 +116,14 @@
 * [VM vs Container](./content/chapter-08/VMvsContainer.md)
 * [Summary](./content/chapter-08/Summary.md)
 
-## Chapter 9: Course Summary ##
-* [What we learned](./content/chapter-09/Summary.md)
+## Chapter 9: Running in Production ##
+* [Introduction](./content/chapter-09/Intro.md)
+* [Installation](./content/chapter-09/Installation.md)
+* [Configuration](./content/chapter-09/Configuration.md)
+* [Hardware](./content/chapter-09/Hardware.md)
+* [Monitoring](./content/chapter-09/Monitoring.md)
+* [Alerting](./content/chapter-09/Alerting.md)
+* [Summary](./content/chapter-09/Summary.md)
+
+## Chapter 10: Course Summary ##
+* [What we learned](./content/chapter-10/Summary.md)
