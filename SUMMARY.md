@@ -56,17 +56,16 @@
 * [Introduction](./content/chapter-04/Intro.md)
 * [Data Aggregation](./content/chapter-04/DataAggregation.md)
 * [Aggregation Query](./content/chapter-04/AggregationQuery.md)
-* [Terms Aggregation](./content/chapter-04/TermsAggregation.md)
 * [Date Histogram Aggregation](./content/chapter-04/DateHistogramAggregation.md)
 * [Range Aggregation](./content/chapter-04/RangeAggregation.md)
 * [Aggregation Exercise](./content/chapter-04/AggregationEx.md)
 * [Summary](./content/chapter-04/Summary.md)
 
 ## Chapter 5: Filebeat ##
-* [Introduction](./content/chapter-06/Intro.md)
-* [Beats](./content/chapter-06/Beats.md)
-* [Filebeat](./content/chapter-06/Filebeat.md)
-* [Filebeat Exercise](./content/chapter-06/FilebeatEx.md)
+* [Introduction](./content/chapter-05/Intro.md)
+* [Beats](./content/chapter-05/Beats.md)
+* [Filebeat](./content/chapter-05/Filebeat.md)
+* [Filebeat Exercise](./content/chapter-05/FilebeatEx.md)
 * [Summary](./content/chapter-05/Summary.md)
 
 ## Chapter 6: Kibana ##

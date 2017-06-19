@@ -33,4 +33,8 @@ output.elasticsearch:
 ```
 sudo service filebeat start && sudo service filebeat status
 ```
-* Query ElasticSearch using Kibana console to confirm new index has been created: 'filebeat'
+* Query ElasticSearch using culr to confirm new index has been created: 'filebeat'
+```
+curl localhost:9200/_cat/indices
+```
+* Query the data inside the newly created index

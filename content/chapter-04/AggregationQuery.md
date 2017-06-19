@@ -1,4 +1,4 @@
-# Aggregation Query #
+# Aggregation Query - Terms #
 
 ```
 curl -XPOST 'http://localhost:9200/ordering/order/_search?pretty=true' -d '
