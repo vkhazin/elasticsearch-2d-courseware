@@ -1,7 +1,7 @@
 # Exercise: Setup Kibana #
 
 * Log-in into your sand-box
-* May need to start your elastic search servicec:
+* May need to start your elastic search service:
 ```
 sudo service elasticsearch start
 ```
@@ -26,7 +26,7 @@ sudo service kibana start
 curl https://elasticsearch-courseware-2d.icssolutions.ca/examples/data-sets/logs.json -o logs.json
 curl -XPOST 'localhost:9200/_bulk' --data-binary "@logs.json"
 ```
-* By default Kibana listens to ip or dns and it won't be really helpful in most environments
+* By default Kibana listens to localhost and it won't be really helpful in most environments
 * Edit kibana.yml to set server.host: 0.0.0.0:
 ```
 sudo nano /etc/kibana/kibana.yml
