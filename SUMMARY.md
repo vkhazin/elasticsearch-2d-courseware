@@ -126,4 +126,4 @@
 * [Summary](./content/chapter-09/Summary.md)
 
 ## Chapter 10: Course Summary ##
-* [What we learned](./content/chapter-10/Summary.md)
+* [What have we learned](./content/chapter-10/Summary.md)
