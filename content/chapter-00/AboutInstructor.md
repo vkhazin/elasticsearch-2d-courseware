@@ -6,4 +6,4 @@
 * Polyglot developer: C#, Java, Node.js, Scala
 * Sql and NoSql knowledge: Sql Server, Oracle, MySql, PostgreSql, Couchbase, Cassandra, ElasticSearch
 * Passionate about building cloud applications
-* Sees role of instructor differently
+* Sees role of an instructor differently
