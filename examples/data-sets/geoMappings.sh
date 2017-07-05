@@ -18,7 +18,6 @@ curl -XPUT localhost:9200/logstash-2015.05.20 -d '
   }
 }'
 
-
 curl -XDELETE localhost:9200/logstash-2015.05.18
 curl -XPUT localhost:9200/logstash-2015.05.18 -d '
 {
