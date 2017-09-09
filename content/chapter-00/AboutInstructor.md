@@ -7,3 +7,5 @@
 * Sql and NoSql knowledge: Sql Server, Oracle, MySql, PostgreSql, Couchbase, Cassandra, ElasticSearch
 * Passionate about building cloud applications
 * Sees role of an instructor differently
+
+//TODO: bring latest from elasticsearch-course
