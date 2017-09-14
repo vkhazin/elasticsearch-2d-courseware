@@ -8,7 +8,7 @@
 * Finish at 16:30
 * Materials are available on-line during and after the course
 * Materials contain external links - please follow them as we paddle along
-* Exercises are mini-hackathons, no step-by-step instructions provided
+* Exercises are mini-hackathons, step-by-step instructions are provided... sometimes
 * Questions, open discussions, and comments are encouraged
 * Keep it professional and polite
 * Let's have fun

@@ -1,4 +1,4 @@
-# Course: Elastic #
+# Course: Elastic.co Products #
 
 <p align="right">
     <i>
@@ -17,4 +17,4 @@
 * Take a moment to register at GitHub.com - you can clone the course repo and make your own comments throughout the course
 * Select <a href="https://github.com/vkhazin/elasticsearch-courseware-2d" target="_blank">repository url</a> and then 'fork' link to create a repo for yourself 
 * Alternatively you are welcome to use any other method to comment and to take notes
-* You will be using your own laptop or virtual machine to setup, to configure and to operate ElasticSearch and Kibana
+* You will be using your own laptop to access virtual machine to setup, to configure and to operate Elastic.co products

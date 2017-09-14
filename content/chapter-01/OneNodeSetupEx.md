@@ -52,8 +52,21 @@ curl -XPOST localhost:9200/ordering/order/1 -d ' {
   "placedOn": "2016-10-17T13:03:30.830Z"
 }'
 ```
-* Expected Response:  
-{"_index":"ordering","_type":"order","_id":"1","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+* Expected Response:
+```
+{
+  "_index":"ordering",
+  "_type":"order",
+  "_id":"1",
+  "_version":1,
+  "_shards": {
+    "total":2,
+    "successful":1,
+    "failed":0
+  },
+  "created":true
+}
+```
 * First query:
 ```
 curl 'localhost:9200/ordering/order/_search?pretty=true&q=id:1'

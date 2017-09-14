@@ -7,4 +7,5 @@
 * Node can be configured as master-eligible, data, client, tribe, or left default: master-eligible and data node
 * Index is a collection of documents and equivalent of Rdbms (Relational Database Management System) database or schema
 * Type is a collection of documents of a specific type inside index, a loose equivalent of table in Rdbms
-* Document is a basic unit of operation for indexing, replications, and searching. An approximate equivalent of a row/record in Rdbms. Document can be searched for in an index, but when being indexed must be assigned to a type
+* Document is a basic unit of operation for indexing, replications, and searching. An approximate equivalent of a row/record in Rdbms.
+* Document is stored in an index's shard and is associated with a type

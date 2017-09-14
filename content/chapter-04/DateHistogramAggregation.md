@@ -1,7 +1,7 @@
 # Date Histogram Aggregation #
 
 * Aggregation that can be applied on date/time field values extracted from the documents
-* Builds fixed size buckets based on the interval dynamically:
+* Builds fixed size buckets based on the interval:
 ```
 curl -XPOST 'localhost:9200/ordering/order/_search?pretty=true' -d '
 {

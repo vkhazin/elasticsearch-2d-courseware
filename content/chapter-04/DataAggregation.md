@@ -1,7 +1,7 @@
 # Data Aggregation #
 
-* Data de-normalized into main entity to include all related data in it
-* Directors, crew, producers, images, and etc... How to index it all?
+* Data is de-normalized into main entity to include all its related data
+* Directors, crew, producers, images, and etc... How to index them all?
 * Example of movie data:
 ```
 {

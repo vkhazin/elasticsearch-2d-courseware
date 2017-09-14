@@ -1,7 +1,7 @@
 # Query Pagination #
 
-* Query results are limited to page size of 10 by default
-* Query pagination and page number controlled by From/Size parameters:
+* Query results are limited to page size of 10, by default
+* Query pagination and page number controlled by ```from```/```size``` parameters:
 ```
 curl -XPOST 'localhost:9200/ordering/order/_search?pretty=true' -d '
 { "from":0, "size":2, "query": {"match_all":{}}}'

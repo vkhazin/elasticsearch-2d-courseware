@@ -55,7 +55,6 @@
 ## Chapter 4: Aggregation ##
 * [Introduction](./content/chapter-04/Intro.md)
 * [Data Aggregation](./content/chapter-04/DataAggregation.md)
-* [Aggregation Query](./content/chapter-04/AggregationQuery.md)
 * [Terms Aggregation](./content/chapter-04/TermsAggregation.md)
 * [Date Histogram Aggregation](./content/chapter-04/DateHistogramAggregation.md)
 * [Range Aggregation](./content/chapter-04/RangeAggregation.md)

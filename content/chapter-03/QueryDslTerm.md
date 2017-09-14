@@ -1,6 +1,6 @@
 # Query Dsl Term #
 
-* Frequently used to match on exact value
+* Frequently used to match on exact property value
 * Equivalent of sql statement:
 ```
 select * from orders where id = "1"

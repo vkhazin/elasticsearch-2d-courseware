@@ -1,2 +1,2 @@
 # CAP theorem#
-![Still following me](../../media/CapTheorem.png)
+![CAP Theorem](../../media/CapTheorem.png)

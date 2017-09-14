@@ -1,6 +1,7 @@
 # Data Examples - App Side Joins #
 
 * Docs stored, indexed, and searched individually - application joins the docs
+* Get the order by id first:
 ```
 POST http://localhost:9200/ordering/orders/1
 {
@@ -9,6 +10,7 @@ POST http://localhost:9200/ordering/orders/1
 	"customerId": "123"
 }
 ```
+* Get the customer using data from the order ```customerId``` second:
 ```
 POST http://localhost:9200/ordering/customers/123
 {
@@ -17,3 +19,4 @@ POST http://localhost:9200/ordering/customers/123
 	"lastName": "Smith"
 }
 ```
+* "Join" the data on the application layer for consumption

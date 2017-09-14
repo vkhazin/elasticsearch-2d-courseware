@@ -1,5 +1,6 @@
 # Index Settings #
 
+* Index can be created explicitly using index Api
 * Number of shards are defined when index is created
 * Number of shards cannot be changed after index has been created
 * Number of replicas can be updated on existing index:

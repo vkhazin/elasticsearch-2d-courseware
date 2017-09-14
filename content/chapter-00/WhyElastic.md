@@ -1,7 +1,7 @@
 # Why Elastic #
 
 * ElasticSearch became popular choice for search engine
-* Started as full text distributed, scalable database
+* Started as full text distributed, scalable search engine
 * Evolved to cover logs processing, graph database, and big data
 * Rich ecosystem with in-house and 3rd party plugins
 * Lucene based

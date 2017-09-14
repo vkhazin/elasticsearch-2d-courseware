@@ -6,7 +6,7 @@
 * Document indexing, searching, and aggregation uses no locks
 * ElasticSearch designed for scalability
 * Application side joins: a no-no in a Rdbms world and is a common practice in NoSql world
-* Data de-normalization: redundant copies of data in each document removes needs for join
+* Data de-normalization: redundant copies of data in each document removes need for joins
 * Nested objects: storing parent and child data in a single document
 * Parent-Child Relationship: storing child documents separately and are associated with parent document
 * ElasticSearch lacks built-in mechanism for de-normalized data maintenance, so are many other NoSql

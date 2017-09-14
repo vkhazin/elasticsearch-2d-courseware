@@ -1,6 +1,6 @@
 # Range Aggregation #
 
-* Statically defines buckets for aggregation using value ranges, 0-50, 51-100, 100-*:
+* Statically defines buckets for aggregation using value ranges: 0-50, 51-100, 100-*:
 ```
 curl -XPOST 'localhost:9200/ordering/order/_search?pretty=true' -d '
 {
