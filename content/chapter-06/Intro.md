@@ -4,3 +4,4 @@
 * Discover
 * Visualize
 * Dashboard
+* Timelion

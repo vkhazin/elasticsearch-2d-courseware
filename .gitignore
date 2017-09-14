@@ -10,3 +10,6 @@ logs
 node_modules/
 .codio
 .vs
+
+_book/
+_book

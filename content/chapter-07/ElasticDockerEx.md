@@ -1,6 +1,12 @@
-# Docker Setup Exercise #
+# ElasticSearch Container Exercise #
 
 * Login into your sandbox
+* Shutdown host services to release memory:   
+  ```
+  sudo service elasticsearch stop
+  sudo service kibana stop
+  sudo service filebeat stop
+  ```
 * Since previously installed Elastic is running, we will use a different port: 9201 for api
 ```
  sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" docker.elastic.co/elasticsearch/elasticsearch:5.4.1

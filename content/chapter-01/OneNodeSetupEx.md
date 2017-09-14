@@ -1,6 +1,10 @@
 # One Node Setup Exercise #
 
-* Login into your sandbox
+* Login into your sandbox:
+```
+ssh ubuntu@vkhazin.end-points.io
+```
+* Where vkhazin is first portion of your corporate email address, e.g. vkhazin@domain.com
 * Update distro using terminal window:
 ```
 sudo apt-get update && sudo apt-get install apt-transport-https -y
@@ -55,16 +59,16 @@ curl -XPOST localhost:9200/ordering/order/1 -d ' {
 * Expected Response:
 ```
 {
-  "_index":"ordering",
-  "_type":"order",
-  "_id":"1",
-  "_version":1,
+  "_index": "ordering",
+  "_type": "order",
+  "_id": "1",
+  "_version": 1,
   "_shards": {
-    "total":2,
-    "successful":1,
-    "failed":0
+    "total": 2,
+    "successful": 1,
+    "failed": 0
   },
-  "created":true
+  "created": true
 }
 ```
 * First query:

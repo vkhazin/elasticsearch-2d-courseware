@@ -12,3 +12,4 @@
   * Materials are here to provide general guidance with references & links for more info
   * Instructor is to paint a runway to self-sufficiency finding information and dealing with setbacks
   * Labs are to provide a safe way to experiment with the technology and to address common troubles
+

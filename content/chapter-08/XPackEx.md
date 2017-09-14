@@ -27,8 +27,8 @@ elasticsearch.password: "changeme"
 ```
 sudo service elasticsearch start && sudo service kibana start
 ```
-* Navigate to http://ip or dns:5601
+* Navigate to http://domain-name:5601
 * Login with default credentials: elastic/changeme
 * Explore the 'Monitoring' and 'Management' links
-* Feel free to install other monitoring plug-ins to find out which one you like more
+* Feel free to install other monitoring plug-ins to find out which one you like the most
 * Links provided on the previous slide...
