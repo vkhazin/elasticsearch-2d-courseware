@@ -1,5 +1,5 @@
-# Chapter 5: Filebeat #
+# Chapter 5: Logstash #
 
-* Introduction to Beats
-* Setup of Filebeat
-* Filebeat Exercise
+* Overview
+* Installation, configuration, and usage
+* Data analysis and procesing

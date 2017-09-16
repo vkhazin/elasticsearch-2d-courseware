@@ -1,6 +1,7 @@
-# Chapter 7: Running in a Container #
+# Chapter 7: Kibana #
 
-* High-level Introduction to Docker
-* Composing Docker image for Elastic Search
-* Running Docker container
-* Container Specific Considerations
+* Setup and configuration
+* Discover
+* Visualize
+* Dashboard
+* Timelion

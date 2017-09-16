@@ -1,7 +1,5 @@
-# Chapter 6: Kibana #
+# Chapter 6: Filebeat #
 
-* Setup and configuration
-* Discover
-* Visualize
-* Dashboard
-* Timelion
+* Introduction to Beats
+* Setup of Filebeat
+* Filebeat Exercise

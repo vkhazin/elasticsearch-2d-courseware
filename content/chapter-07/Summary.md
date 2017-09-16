@@ -1,7 +1,7 @@
 # Chapter 7: Summary #
 
-* What's Docker?
-* How can you create a Docker image?
-* How do you run a Docker image?
-* How do you scale from one Docker host to many?
-* What are the cloud hosting options for Docker Images?
+* What's Kibana?
+* How to install Kibana?
+* How many servers to allocate to Kibana?
+* What are the components in Kibana
+* What are the common pitfalls using searches?

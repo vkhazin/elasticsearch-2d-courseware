@@ -1,9 +1,9 @@
 # Visualize #
 
 * Framework to present your data in aggregated or graphical fashion
-* Data table - aggregated data presentation, not mechanism for a data dump
+* Data table - aggregated data presentation, not a mechanism for a data dump
 * There is no built-in mechanism to dump data of a search
-* Third party plugin for data import/export: <a href="https://github.com/jprante/elasticsearch-knapsack" target="_blank">knapsack</a>
+* Third party plugin for data import/export: <a href="https://github.com/jprante/elasticsearch-knapsack" target="_blank">knapsack</a> cannot export more data than shown on the page
 * Data Table - by default presents count of document found by search
 * Can use new or previously saved Discover search
 * Two components: metrics and aggregation

@@ -1,4 +1,5 @@
-# Chapter 09: Running in Production #
+# Chapter 9: Preparing for Production #
 
-* Installation, configuration, and hardware
-* Monitoring and alerts
+* Discussion on capacity planning and data population
+* Performance tuning and monitoring
+* Hosted Elastic Search

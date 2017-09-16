@@ -1,7 +1,7 @@
 # Exercise: Setup Kibana #
 
 * Log-in into your sand-box
-* May need to start your elastic search service:
+* Double check elasticsearch service is running:
 ```
 sudo service elasticsearch start
 ```
@@ -27,7 +27,7 @@ curl https://elasticsearch-courseware-2d.icssolutions.ca/examples/data-sets/logs
 curl -XPOST 'localhost:9200/_bulk' --data-binary "@logs.json"
 ```
 * By default Kibana listens to localhost and it won't be really helpful in most environments
-* Edit kibana.yml to set server.host: 0.0.0.0:
+* Edit kibana.yml: ```server.host: 0.0.0.0```:
 ```
 sudo nano /etc/kibana/kibana.yml
 ```
@@ -47,7 +47,7 @@ curl localhost:9200/_cat/indices
 * Look at the top-right corner to adjust the timeframe
 * You should be able to see some data now, if not, common troubles are index pattern configuration and a timeframe selection
 * There is a star icon at the top  of the page to preserve default settings
-* Head to the 'Discover' link at the top
+* Head to the 'Discover' link on the left
 * Adjust time-frame in the top-right corner
 * Use search box to locate some record
 * Select 'add' link next to few fields to present selected fields on the results pane

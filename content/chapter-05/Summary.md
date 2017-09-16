@@ -1,6 +1,5 @@
 # Chapter 5: Summary #
 
-* What are the beats?
-* What problem beats are looking to solve?
-* Can you enumerate beats and their purpose?
-* How to configure Filebeat to pick a specific file or folder?
+* What is the purpose of Logstash product?
+* What are the components of Logstash pipeline?
+* What filter plug-in we've used to extract data from log file?
