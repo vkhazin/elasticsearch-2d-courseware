@@ -18,6 +18,6 @@
   * <a href="https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually" target="_blank">How to generate public/private key</a>
   * Email public key to <a href="mailto:vladimir.khazin@icssolutions.ca">vladimir.khazin@icssolutions.ca</a>
 * Take a moment to register at GitHub.com - you can clone the course repo and make your own comments throughout the course
-* Select <a href="https://github.com/vkhazin/elasticsearch-courseware" target="_blank">repository url</a> and then 'fork' link to create a repo for yourself 
+* Select <a href="https://github.com/vkhazin/elasticsearch-courseware-2d" target="_blank">repository url</a> and then 'fork' link to create a repo for yourself 
 * Alternatively you are welcome to use any other method to comment and to take notes
 * You will be using your own laptop and sandbox virtual machine to setup, to configure and to operate Elastic.co products
