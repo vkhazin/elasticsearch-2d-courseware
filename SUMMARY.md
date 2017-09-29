@@ -138,3 +138,4 @@
 
 ## Chapter 11: Course Summary ##
 * [What have we learned](./content/chapter-11/Summary.md)
+* [Thank you!](./content/chapter-11/ThankYou.md)

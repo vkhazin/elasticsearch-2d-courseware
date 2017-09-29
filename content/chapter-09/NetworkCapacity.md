@@ -1,6 +1,6 @@
 # Network Capacity #
 
-* I have had a great experience of taking non-prod environment down at shomi.com
+* I have had a great experience of taking a non-prod environment down at shomi.com
 * By running a lot of elastic search and index requests
 * Some people still grimace when they see me
 * It was not the bandwidth

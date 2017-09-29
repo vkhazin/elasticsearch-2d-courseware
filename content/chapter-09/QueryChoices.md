@@ -1,8 +1,8 @@
 # Query Choices #
 
 * Avoid wild-card and regex queries
-* Using full-text and non-analyzed searches on the same filed - use multi-fields
-* Return fields required only rather than all the fields:
+* When use full-text and non-analyzed searches on the same filed - use multi-fields
+* Return fields required only, rather than all the fields:
 ```
 curl 'localhost:9200/ordering/order/_search?pretty=true' -d '
 {
