@@ -150,5 +150,5 @@ curl -XPUT 'localhost:9200/ordering/order/_mapping?pretty=true' -d '
 curl -XDELETE localhost:9200/ordering
 ```
 * Watch out! There is no warning or confirmation using curl!
-* Psst: look out for the proper response too: ```{"acknowledged":true}```
+* Psst, look out for the proper response too: ```{"acknowledged":true}```
 
