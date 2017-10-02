@@ -104,7 +104,7 @@ curl -XPUT 'localhost:9200/ordering/order/_mapping?pretty=mapping' -d '
 * What now? Why?
 * Let us try again:
 ```
-curl -XPUT 'localhost:9200/ordering/order/_mapping?pretty=mapping' -d '
+curl -XPUT 'localhost:9200/ordering/order/_mapping?pretty=true' -d '
 {
   "order" : {
     "properties" : {
