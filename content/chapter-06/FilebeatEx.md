@@ -1,5 +1,7 @@
 # Filebeat Setup Exercise #
 
+* Login into your sandboxes
+* Verify ElasticSearch is running: ```sudo service elasticsearch restart```
 * Download public key for the repository:
 ```
 curl -O - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
