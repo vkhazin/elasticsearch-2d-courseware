@@ -6,7 +6,7 @@
 ```
 curl 'localhost:9200/ordering/order/_search?pretty=true' -d '
 {
-    "fields": ["planedOn"]
+    "stored_fields": ["planedOn"]
 }'
 ```
 * Use filter whenever possibly to suppress scoring:
