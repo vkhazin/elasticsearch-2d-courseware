@@ -1,4 +1,4 @@
-# Data Examples - App Side Joins #
+# App Side Joins #
 
 * Docs stored, indexed, and searched individually - application joins the docs
 * Get the order by id first:
