@@ -1,8 +1,14 @@
 # Course Objectives #
 
-* Bring Elastic Search novices to the level where they would feel familiar with installing, configuring and using Elastic products
-* Explore ElasticSearch Dsl: search, filter, and aggregation
-* Install and configure Filebeat for logs ingest 
-* Install and configure Kibana for data analysis
-* Deploy Elastic Search using Docker
-* Review Elastic Hosting Options
+* Get familiar with ElasticSearch as a distributed database and search engine
+* Install and configure ElasticSearch 5.x
+* Gain understanding and proficiency with NoSql data-modeling principals
+* Learn Query Dsl (domain specific language)
+* Understand difference between search and filter
+* Build aggregation queries
+* Run Filebeat to parse log file
+* Setup Logstash to transform log lines into json documents
+* Install and configure Kibana 5.x
+* Leverage Kibana's discover, visualize, and dashboard functionality
+* Install and explorer X-Pack
+* Review production planning and operational principals

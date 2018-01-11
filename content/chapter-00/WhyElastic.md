@@ -1,10 +1,11 @@
-# Why Elastic #
+# Why ElasticSearch #
 
 * ElasticSearch became popular choice for search engine
-* Started as full text distributed, scalable search engine
+* Started as full text distributed, scalable database
 * Evolved to cover logs processing, graph database, and big data
 * Rich ecosystem with in-house and 3rd party plugins
+* Open source with enterprise support
 * Lucene based
 * Impressive scalability and performance
-* Kibana offers ever expanding user interface options
-* Filebeat along with other beats streamlines data ingest
+* Rest not Restful API
+* Fast version release cycle
