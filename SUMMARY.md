@@ -31,7 +31,7 @@
 
 ## Chapter 2: ElasticSearch Index ##
 * [Introduction](./content/chapter-02/Intro.md)
-* [IndexType](./content/chapter-02/IndexType.md)
+* [Index and Type](./content/chapter-02/IndexType.md)
 * [Index and Type Api](./content/chapter-02/IndexTypeApi.md)
 * [Index Settings](./content/chapter-02/IndexSettings.md)
 * [Mapping](./content/chapter-02/Mapping.md)

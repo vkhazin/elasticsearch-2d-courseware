@@ -8,3 +8,4 @@
 * Score for search results calculated at the index level
 * Mapping for document's properties are defined at the type level
 * Search and aggregation can be executed at type, index, alias, multi-index, or at cluster levels
+* With v6 Elastic has dropped support for multiple types in the same index
