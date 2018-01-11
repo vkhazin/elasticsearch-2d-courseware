@@ -1,11 +1,11 @@
 
 <!DOCTYPE HTML>
-<html lang="">
+<html lang="" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>One Node Setup Exercise &#xB7; GitBook</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>One Node Setup Exercise · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
         
@@ -49,7 +49,7 @@
         
     
     
-    <meta name="HandheldFriendly" content="true">
+    <meta name="HandheldFriendly" content="true"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="DistributedDb.html">
+    <link rel="next" href="DistributedDb.html" />
     
     
-    <link rel="prev" href="ExerciseSetup.html">
+    <link rel="prev" href="ExerciseSetup.html" />
     
 
     </head>
@@ -71,7 +71,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search">
+    <input type="text" placeholder="Type to search" />
 </div>
 
             
@@ -253,7 +253,7 @@
                 <a href="Terminology-2.html">
             
                     
-                    Terminology Cont&apos;d
+                    Terminology Cont'd
             
                 </a>
             
@@ -300,9 +300,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.7" data-path="DataModelingExamples-1.html">
+        <li class="chapter " data-level="3.7" data-path="DataExamples.html">
             
-                <a href="DataModelingExamples-1.html">
+                <a href="DataExamples.html">
             
                     
                     Data Examples
@@ -313,12 +313,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.8" data-path="DataModelingExamples-2.html">
+        <li class="chapter " data-level="3.8" data-path="AppSideJoins.html">
             
-                <a href="DataModelingExamples-2.html">
+                <a href="AppSideJoins.html">
             
                     
-                    Data Examples - App Side Joins
+                    App Side Joins
             
                 </a>
             
@@ -429,7 +429,7 @@
                 <a href="../chapter-02/IndexType.html">
             
                     
-                    IndexType
+                    Index and Type
             
                 </a>
             
@@ -540,7 +540,7 @@
                 <a href="../chapter-03/QueryDsl-2.html">
             
                     
-                    Query Dsl Cont&apos;d
+                    Query Dsl Cont'd
             
                 </a>
             
@@ -698,18 +698,18 @@
             
         </li>
     
-        <li class="chapter " data-level="6.3" data-path="../chapter-04/TermsAggregation.md">
+        <li class="chapter " data-level="6.3" data-path="../chapter-04/TermsAggregation.html">
             
-                <span>
+                <a href="../chapter-04/TermsAggregation.html">
             
                     
                     Terms Aggregation
             
-                
+                </a>
             
 
             
-        </span></li>
+        </li>
     
         <li class="chapter " data-level="6.4" data-path="../chapter-04/DateHistogramAggregation.html">
             
@@ -1161,7 +1161,20 @@
             
         </li>
     
-        <li class="chapter " data-level="9.16" data-path="../chapter-07/Console.html">
+        <li class="chapter " data-level="9.16" data-path="../chapter-07/TimelionEx.html">
+            
+                <a href="../chapter-07/TimelionEx.html">
+            
+                    
+                    Timelion Exercise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.17" data-path="../chapter-07/Console.html">
             
                 <a href="../chapter-07/Console.html">
             
@@ -1174,7 +1187,7 @@
             
         </li>
     
-        <li class="chapter " data-level="9.17" data-path="../chapter-07/Summary.html">
+        <li class="chapter " data-level="9.18" data-path="../chapter-07/Summary.html">
             
                 <a href="../chapter-07/Summary.html">
             
@@ -1687,7 +1700,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../..">One Node Setup Exercise</a>
+        <a href="../.." >One Node Setup Exercise</a>
     </h1>
 </div>
 
@@ -1704,56 +1717,65 @@
                                 
                                 <h1 id="one-node-setup-exercise">One Node Setup Exercise</h1>
 <ul>
-<li>Login into your sandbox:<pre><code>ssh ubuntu@vkhazin.end-points.io
-</code></pre></li>
-<li>Where vkhazin is first portion of your corporate email address, e.g. vkhazin@domain.com</li>
+<li>Login into your sandbox</li>
 <li>Update distro using terminal window:<pre><code>sudo apt-get update &amp;&amp; sudo apt-get install apt-transport-https -y
 </code></pre></li>
 <li>Install Java Runtime Environment using terminal window<pre><code>sudo apt-get install default-jre -y
 </code></pre></li>
-<li>Download and install Public Signing Key:<pre><code>curl -o - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+<li>Download and install Public Signing Key:<pre><code>curl https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 </code></pre></li>
-<li>Add repository definition:<pre><code>echo &quot;deb https://artifacts.elastic.co/packages/5.x/apt stable main&quot; | sudo tee -a /etc/apt/sources.list.d/elastic-5.x.list
+<li>Add repository definition:<pre><code>echo &quot;deb https://artifacts.elastic.co/packages/6.x/apt stable main&quot; | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list
 </code></pre></li>
 <li>Install Elastic Search:<pre><code>sudo apt-get update &amp;&amp; sudo apt-get install elasticsearch
 </code></pre></li>
 <li>Start Elastic Search service:<pre><code>sudo service elasticsearch start
 </code></pre></li>
+<li>We will be using &apos;curl&apos; to troubleshoot setup and to run our first queries before we install and configure Kibana</li>
 <li>Give it a moment to finish the initialization and verify it is running:<pre><code>curl localhost:9200
 </code></pre></li>
 <li>Expected response:<pre><code>{
-&quot;name&quot; : &quot;TBvpgLP&quot;,
+&quot;name&quot; : &quot;A28UK7n&quot;,
 &quot;cluster_name&quot; : &quot;elasticsearch&quot;,
-&quot;cluster_uuid&quot; : &quot;A7_ZS4BbTkWpJuv9ev8s1w&quot;,
+&quot;cluster_uuid&quot; : &quot;6-nG7QniTiuSFtPtJOdJsg&quot;,
 &quot;version&quot; : {
-  &quot;number&quot; : &quot;5.3.2&quot;,
-  &quot;build_hash&quot; : &quot;3068195&quot;,
-  &quot;build_date&quot; : &quot;2017-04-24T16:15:59.481Z&quot;,
+  &quot;number&quot; : &quot;6.0.0&quot;,
+  &quot;build_hash&quot; : &quot;8f0685b&quot;,
+  &quot;build_date&quot; : &quot;2017-11-10T18:41:22.859Z&quot;,
   &quot;build_snapshot&quot; : false,
-  &quot;lucene_version&quot; : &quot;6.4.2&quot;
+  &quot;lucene_version&quot; : &quot;7.0.1&quot;,
+  &quot;minimum_wire_compatibility_version&quot; : &quot;5.6.0&quot;,
+  &quot;minimum_index_compatibility_version&quot; : &quot;5.0.0&quot;
 },
 &quot;tagline&quot; : &quot;You Know, for Search&quot;
 }
 </code></pre></li>
-<li>Posting first document:<pre><code>curl -XPOST localhost:9200/ordering/order/1 -d &apos; {
+<li>Posting first document:<pre><code>curl -XPOST &apos;localhost:9200/orders/orders/1?pretty=true&apos; \
+  -H &apos;content-type: application/json&apos; \
+  -d &apos;{
 &quot;id&quot;: &quot;1&quot;, 
-&quot;placedOn&quot;: &quot;2016-10-17T13:03:30.830Z&quot;
+&quot;placedOn&quot;: &quot;2016-10-17T13:03:30.830Z&quot;,
+&quot;status&quot;: &quot;shipped&quot;
 }&apos;
 </code></pre></li>
-<li>Expected Response:<pre><code>{
-&quot;_index&quot;: &quot;ordering&quot;,
-&quot;_type&quot;: &quot;order&quot;,
-&quot;_id&quot;: &quot;1&quot;,
-&quot;_version&quot;: 1,
-&quot;_shards&quot;: {
-  &quot;total&quot;: 2,
-  &quot;successful&quot;: 1,
-  &quot;failed&quot;: 0
-},
-&quot;created&quot;: true
+<li>Expected Response:  <pre><code class="lang-json">{
+  <span class="hljs-string">&quot;_index&quot;</span> : <span class="hljs-string">&quot;orders&quot;</span>,
+  <span class="hljs-string">&quot;_type&quot;</span> : <span class="hljs-string">&quot;orders&quot;</span>,
+  <span class="hljs-string">&quot;_id&quot;</span> : <span class="hljs-string">&quot;1&quot;</span>,
+  <span class="hljs-string">&quot;_version&quot;</span> : <span class="hljs-number">2</span>,
+  <span class="hljs-string">&quot;result&quot;</span> : <span class="hljs-string">&quot;created&quot;</span>,
+  <span class="hljs-string">&quot;_shards&quot;</span> : {
+    <span class="hljs-string">&quot;total&quot;</span> : <span class="hljs-number">2</span>,
+    <span class="hljs-string">&quot;successful&quot;</span> : <span class="hljs-number">1</span>,
+    <span class="hljs-string">&quot;failed&quot;</span> : <span class="hljs-number">0</span>
+  },
+  <span class="hljs-string">&quot;_seq_no&quot;</span> : <span class="hljs-number">0</span>,
+  <span class="hljs-string">&quot;_primary_term&quot;</span> : <span class="hljs-number">1</span>
 }
-</code></pre></li>
-<li>First query:<pre><code>curl &apos;localhost:9200/ordering/order/_search?pretty=true&amp;q=id:1&apos;
+</code></pre>
+</li>
+<li><code>_seq_no</code>: unique sequence of indexing operation</li>
+<li><code>_primary_term</code>: shard id where primary copy stored</li>
+<li>First query:<pre><code>curl &apos;localhost:9200/orders/orders/_search?pretty=true&amp;q=id:1&apos;
 </code></pre></li>
 <li>Please review results - where are: doc id, document data, index name, type name, and search score? </li>
 </ul>
@@ -1765,13 +1787,13 @@
     <div class="search-results">
         <div class="has-results">
             
-            <h1 class="search-results-title"><span class="search-results-count"></span> results matching &quot;<span class="search-query"></span>&quot;</h1>
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
             <ul class="search-results-list"></ul>
             
         </div>
         <div class="no-results">
             
-            <h1 class="search-results-title">No results matching &quot;<span class="search-query"></span>&quot;</h1>
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
             
         </div>
     </div>
@@ -1800,22 +1822,10 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"One Node Setup Exercise","level":"3.10","depth":1,"next":{"title":"Distributed Database","level":"3.11","depth":1,"path":"content/chapter-01/DistributedDb.md","ref":"./content/chapter-01/DistributedDb.md","articles":[]},"previous":{"title":"Exercise Setup","level":"3.9","depth":1,"path":"content/chapter-01/ExerciseSetup.md","ref":"./content/chapter-01/ExerciseSetup.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["footer","livereload"],"pluginsConfig":{"livereload":{},"search":{},"layout":{"footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"token":"UA-99005189-1"},"footer":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-01/OneNodeSetupEx.md","mtime":"2017-09-14T22:52:55.244Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-01T21:52:30.013Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"One Node Setup Exercise","level":"3.10","depth":1,"next":{"title":"Distributed Database","level":"3.11","depth":1,"path":"content/chapter-01/DistributedDb.md","ref":"./content/chapter-01/DistributedDb.md","articles":[]},"previous":{"title":"Exercise Setup","level":"3.9","depth":1,"path":"content/chapter-01/ExerciseSetup.md","ref":"./content/chapter-01/ExerciseSetup.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["footer","livereload"],"pluginsConfig":{"livereload":{},"search":{},"layout":{"footerPath":"layouts/footer.html"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"token":"UA-99005189-1"},"footer":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"content/chapter-01/OneNodeSetupEx.md","mtime":"2018-01-11T19:33:28.712Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-11T19:57:32.698Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
-</div><center>
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
-      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png">
-    </a>
-</center>
-<p>
-<!-- <center>
-    <a>
-        <img alt="Build Status"
-             style="border-width:0"
-             src="https://travis-ci.org/vkhazin/elasticsearch-courseware-2d.svg?branch=master">
-    </a>
-</center> --></p>
+</div>
 
         
     <script src="../../gitbook/gitbook.js"></script>
