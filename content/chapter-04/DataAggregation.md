@@ -1,8 +1,8 @@
 # Data Aggregation #
 
-* Data is de-normalized into main entity to include all its related data
+* Data is de-normalized into the main entity to include all the related data too
 * Directors, crew, producers, images, and etc... How to index them all?
-* Example of movie data:
+* Example of a movie data:
 ```
 {
   "AssetId" : "86c1bba8-d18f-4bbc-9cb4-a90a4220f59c",
