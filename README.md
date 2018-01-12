@@ -12,7 +12,7 @@
     </a>    
 </p>
 
-* Course materials can be accessed [online1](https://elasticsearch-courseware-2d.icssolutions.ca) or [online2](http://elasticsearch-courseware-2d-backup.icssolutions.ca/)
+* Course materials can be accessed [online1](https://vkhazin.gitbooks.io/elasticsearch-courseware-2d/) or [online2](https://elasticsearch-courseware-2d.netlify.com/)
 * If you did not have a chance to fill-out <a target="_blank" href="https://www.surveymonkey.com/r/PDW96TL">pre-course survey, please do so now</a>
 * If you have not provided your public ssh key via email to configure access to your private sandbox, please do so now
   * <a href="https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually" target="_blank">How to generate public/private key</a>
