@@ -1,5 +1,6 @@
 # Beats
 
+* First released in v5, new Cloudwatchmetricbeat in v6
 * Lightweight Data Shippers
 * Installed as Agents to send data at high speed to Logstash or to ElasticSearch
 * Filebeat is offering a lightweight way to forward and centralize logs and files

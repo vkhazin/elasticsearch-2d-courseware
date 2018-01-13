@@ -33,15 +33,15 @@ curl localhost:9200
 * Expected response:
 ```
 {
-  "name" : "A28UK7n",
+  "name" : "lf6yb_i",
   "cluster_name" : "elasticsearch",
-  "cluster_uuid" : "6-nG7QniTiuSFtPtJOdJsg",
+  "cluster_uuid" : "MK-dEq3mT7W16Qw3DQRf3w",
   "version" : {
-    "number" : "6.0.0",
-    "build_hash" : "8f0685b",
-    "build_date" : "2017-11-10T18:41:22.859Z",
+    "number" : "6.1.1",
+    "build_hash" : "bd92e7f",
+    "build_date" : "2017-12-17T20:23:25.338Z",
     "build_snapshot" : false,
-    "lucene_version" : "7.0.1",
+    "lucene_version" : "7.1.0",
     "minimum_wire_compatibility_version" : "5.6.0",
     "minimum_index_compatibility_version" : "5.0.0"
   },
