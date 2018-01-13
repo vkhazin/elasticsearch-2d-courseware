@@ -10,7 +10,7 @@ CMD ["/hello"]
 * Where 'scratch' is name:tag of base image, in this case most basic image 'scratch:latest'
 * 'COPY' command copies executable file 'hello' to the root of file system
 * 'CMD' is command executed when container is running
-* Elastic Search offers number of ready-to-use <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html" target="_blank">docker images</a>
+* Elastic Search offers number of ready-to-use <a href="https://www.docker.elastic.co/#" target="_blank">docker images</a>
 * To run Open Source Search official image:
 ```
  sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" \

@@ -7,7 +7,7 @@ sudo service elasticsearch restart
 ```
 * Populate few sample data borrowed from <a href="https://catalog.data.gov/dataset" target="_blank">data.gov</a>:
 ```
-curl https://elasticsearch-courseware.icssolutions.ca/examples/data-sets/collisions.txt -o collisions.txt
+curl -O https://s3.us-east-2.amazonaws.com/elasticsearch-courseware/sample-data/collisions.txt
 curl -XPOST 'localhost:9200/_bulk' -H 'content-type:application/json' --data-binary "@collisions.txt"
 ```
 * Confirm there are some records to search on:
