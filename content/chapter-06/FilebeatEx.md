@@ -30,14 +30,13 @@ sudo nano /etc/filebeat/filebeat.yml
     - /var/log/*.log 
     
 output.elasticsearch:
-  # Array of hosts to connect to.
   hosts: ["localhost:9200"]
 ```
 * Start Filebeat service and check the status:  
 ```
 sudo service filebeat start && sudo service filebeat status
 ```
-* Query ElasticSearch using culr to confirm new index has been created: 'filebeat-':  
+* Query ElasticSearch using culr to confirm new index has been created e.g.: filebeat-6.1.1-2018.01.13
 ```
 curl localhost:9200/_cat/indices
 ```

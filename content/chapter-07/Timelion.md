@@ -1,6 +1,6 @@
 # Timelion #
 
-* New for Kibana version 5.x, pronounced "Timeline"
+* Introduced in v5, has not changed much in v6, pronounced "Timeline"
 * Timelion is an Elastic {Re}search project into time series
 * {Re}search projects are launched by Elastic engineers that want to grab an idea, run with it, and share it
 * Brings together totally independent data sources into a single interface

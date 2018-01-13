@@ -1,6 +1,6 @@
 # Tag Cloud #
 
-* New for version 5.x, previously a 3rd party <a href="https://github.com/stormpython/tagcloud" target="_blank">kibana plugin</a>
+* Introduced in v5, previously a 3rd party <a href="https://github.com/stormpython/tagcloud" target="_blank">kibana plugin</a>
 * Collection of words, terms or small phrases, laid out all adjacent to each other
 * Descending order used to select most frequent metric
 * Ascending order can be used to detect abnormalities

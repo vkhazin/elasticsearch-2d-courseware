@@ -1,6 +1,6 @@
 # Timelion Exercise #
 
-* Access Kibana user interface with browser: http://domain-name:5601/
+* Access Kibana user interface with browser: http://ip-address:5601/
 * Select Timelion on the left hand navigation bar
 * Switch to full screen using the icon on the chart
 * In the formula area type: ```.es(*)```
