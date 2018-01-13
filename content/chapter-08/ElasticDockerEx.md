@@ -9,13 +9,13 @@
   ```
 * Since previously installed Elastic is running, we will use a different port: 9201 for api
 ```
- sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" docker.elastic.co/elasticsearch/elasticsearch:5.4.1
+ sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" docker.elastic.co/elasticsearch/elasticsearch-oss:6.1.1
 ```
 * -d: run detached not to take over command prompt
 * -e: parameters accepted/expected by the image
 * Give it few moments to start and then test:
 ```
- curl elastic:changeme@localhost:9201
+ curl localhost:9201
 ```
 * Expected output:
 ```
