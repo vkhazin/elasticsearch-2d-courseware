@@ -4,8 +4,8 @@ node_js:
   
 script:
   - npm install
-  - npm install gitbook-cli -g
-  - npm install surge -g
+  - sudo npm install gitbook-cli -g
+  - sudo npm install surge -g
   - gitbook install
   - gitbook build
   - surge --domain http://elasticsearch-2d-courseware.surge.sh/ --project ./_book
