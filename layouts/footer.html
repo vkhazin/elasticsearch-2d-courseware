@@ -1,17 +1,18 @@
 <center>
-    <a   rel="license" 
+   <a    rel="license" 
          href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
          target="_blank">
       <img  alt="Creative Commons License" 
             style="border-width:0" 
             src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-    </a>
+   </a>
+   <br/>
+   <div>
+     Last modified: <a id="timestampvalue"></a>
+   </div>
 </center>
-<p/>
-<!-- <center>
-    <a>
-        <img alt="Build Status"
-             style="border-width:0"
-             src="https://travis-ci.org/vkhazin/elasticsearch-courseware-2d.svg?branch=master">
-    </a>
-</center> -->
+
+<script type="text/javascript">
+  var timestamp = new Date(document.lastModified).toISOString();
+  document.getElementById("timestampvalue").textContent = timestamp;
+</script>
