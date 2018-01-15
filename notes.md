@@ -1,1 +1,9 @@
-* make sure downloads are from s3 instead of icssolutions.ca domain name
+# Notes from 2018-01 event
+
+* App Side Joins: replace post with get, and two types in one index is no more possible
+* Exercise setup, add step-by-step for putty users. Missing instructions for import key and ubuntu username
+* Add a link to ACID term
+* List consideration es vs. a db (maybe in the extras)
+* Mapping: broken code snippet, expand on multi-field with id and id.keyword
+* IndexTypeApi: broken code snippet
+* 

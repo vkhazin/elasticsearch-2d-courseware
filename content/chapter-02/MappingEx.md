@@ -81,7 +81,7 @@ curl -XPUT 'localhost:9200/orders/_mapping?pretty=true' \
 * What's the outcome? And why?
 * Try modifying existing type mapping:
 ```
-curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=mapping' \
+curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=true' \
   -H 'content-type: application/json' \
   -d '{
   "orders" : {
@@ -110,7 +110,7 @@ curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=mapping' \
 * What now? Why?
 * Let us try again:
 ```
-curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=mapping' \
+curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=true' \
   -H 'content-type: application/json' \
   -d '
 {
@@ -137,7 +137,7 @@ curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=mapping' \
 * Let's modify data type for existing field
 ```
 curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=true' \
-  -H 'content-type: application/json' 
+  -H 'content-type: application/json' \
   -d '
 {
   "orders" : {
