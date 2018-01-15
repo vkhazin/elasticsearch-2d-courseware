@@ -6,4 +6,4 @@
 * List consideration es vs. a db (maybe in the extras)
 * Mapping: broken code snippet, expand on multi-field with id and id.keyword
 * IndexTypeApi: broken code snippet
-* 
+* In the labs, replace bullet points with numbers
