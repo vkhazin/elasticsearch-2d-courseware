@@ -37,7 +37,9 @@
 5. Logstash loads all files in the /etc/logstash/conf.d directory, store no extra files there
 6. Restart logstash service and monitor messages:
   ```
-  sudo service logstash start && sudo tail -f -n 100 /var/log/logstash/logstash-plain.log &
+  sudo service logstash stop && \
+  sudo service logstash start && \
+  sudo tail -f -n 100 /var/log/logstash/logstash-plain.log &
   ```
 7. Check the data has been populated into elastic search:
   ```
