@@ -4,7 +4,7 @@
 2. Verify ElasticSearch is running: ```sudo service elasticsearch restart```
 3. Download public key for the repository:
   ```
-  curl -O - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+  curl -O https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
   ```
 4. Add repository to the list:
   ```

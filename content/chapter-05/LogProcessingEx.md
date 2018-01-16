@@ -51,3 +51,4 @@
 sudo find / -name *.*sincedb*
 ```
 10. And delete desired sincedb files to restart the ingest process
+11. In case of troubles, check /var/log/logstash log files for errors
