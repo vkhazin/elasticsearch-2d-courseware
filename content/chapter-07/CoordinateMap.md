@@ -7,9 +7,9 @@
 * We will have to delete the indices created, re-create indices with mapping, and to re-populate data
 * Shell script prepared for you
 * Download and execute on the sandbox by running the following command:
-```
-bash <(curl -s https://s3.us-east-2.amazonaws.com/elasticsearch-courseware/sample-data/logMappings.sh)
-```
+  ```
+  curl -s https://s3.us-east-2.amazonaws.com/elasticsearch-courseware/sample-data/logMappings.sh | bash -
+  ```
 * Go back to Visualize tab and select 'Tile map'
 * Here it is a bit tricky - may need to go back to settings and refresh the fields
 * Select 'Geo Coordinates' and select 'geo.coordinates' field
