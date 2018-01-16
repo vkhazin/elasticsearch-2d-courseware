@@ -1,36 +1,36 @@
 # One Node Setup Exercise #
 
-* Login into your sandbox
-* Update distro using terminal window:
+1. Login into your sandbox
+2. Update distro using terminal window:
 ```
 sudo apt-get update && sudo apt-get install apt-transport-https -y
 ```
-* Install Java Runtime Environment using terminal window
+3. Install Java Runtime Environment using terminal window
 ```
 sudo apt-get install default-jre -y
 ```
-* Download and install Public Signing Key:
+4. Download and install Public Signing Key:
 ```
 curl https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
-* Add repository definition:
+5. Add repository definition:
 ```
 echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list
 ```
-* Install Elastic Search:
+6. Install Elastic Search:
 ```
 sudo apt-get update && sudo apt-get install elasticsearch
 ```
-* Start Elastic Search service:
+7. Start Elastic Search service:
 ```
 sudo service elasticsearch start
 ```
-* We will be using 'curl' to troubleshoot setup and to run our first queries before we install and configure Kibana
-* Give it a moment to finish the initialization and verify it is running:
+8. We will be using 'curl' to troubleshoot setup and to run our first queries before we install and configure Kibana
+9. Give it a moment to finish the initialization and verify it is running:
 ```
 curl localhost:9200
 ```
-* Expected response:
+10. Expected response:
 ```
 {
   "name" : "lf6yb_i",
@@ -48,7 +48,7 @@ curl localhost:9200
   "tagline" : "You Know, for Search"
 }
 ```
-* Posting first document:
+11. Posting first document:
 ```
 curl -XPOST 'localhost:9200/orders/orders/1?pretty=true' \
     -H 'content-type: application/json' \
@@ -58,7 +58,7 @@ curl -XPOST 'localhost:9200/orders/orders/1?pretty=true' \
   "status": "shipped"
 }'
 ```
-* Expected Response:  
+12. Expected Response:  
 ```json
   {
     "_index" : "orders",
@@ -75,10 +75,10 @@ curl -XPOST 'localhost:9200/orders/orders/1?pretty=true' \
     "_primary_term" : 1
   }
 ```
-* ```_seq_no```: unique sequence of indexing operation
-* ```_primary_term```: shard id where primary copy stored
-* First query:
+13. ```_seq_no```: unique sequence of indexing operation
+14. ```_primary_term```: shard id where primary copy stored
+15. First query:
 ```
 curl 'localhost:9200/orders/orders/_search?pretty=true&q=id:1'
 ```
-* Please review results - where are: doc id, document data, index name, type name, and search score? 
+16. Please review results - where are: doc id, document data, index name, type name, and search score? 

@@ -7,6 +7,6 @@
 5. Switch to Visualize tab
 6. Select Metric
 7. Select saved search or start over with a new search
-8. Select aggregation type
+8. Select a metric type and an aggregation type to explore the options
 9. Add couple more metrics with different aggregation types
 10. Save your definitions - you may want to comeback to them later

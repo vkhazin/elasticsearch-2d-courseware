@@ -1,6 +1,6 @@
-# Exercise Setup #
+# Exercise Setup on AWS #
 
-## Aws ##
+1. The objective is to make sure everyone is able to connect to their VM's and to understand where the VM's are running 
 * AWS Regions and Availability Zones
 * Elastic Search cluster should be setup in one region and using multiple availability zones
 * EC2 t2.medium instances with Ubuntu 16.04, could have been any Linux Distribution

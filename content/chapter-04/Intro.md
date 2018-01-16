@@ -1,5 +1,5 @@
-# Chapter 4: Data Aggregation & Aggregation Queries #
+# Chapter 4: Aggregation Queries #
 
-* Introduction to data aggregations
-* Aggregation queries
+* Introduction to aggregations
+* Aggregation query syntax
 * Aggregation exercise
