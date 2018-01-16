@@ -14,27 +14,27 @@ sudo ./bin/elasticsearch-plugin install x-pack
 cd /usr/share/kibana/
 sudo ./bin/kibana-plugin install x-pack
 ```
-4. Generate passwords:
+4. Start ElasticSearch and Kibana services:
+```
+sudo service elasticsearch start && sudo service kibana start
+```
+5. Generate passwords:
 ```
 cd /usr/share/elasticsearch/bin/x-pack/
 sudo ./setup-passwords interactive
 ```
-5. User the same password for all users: ```changeme```
-6. Modify /etc/kibana/kibana.yml:
+6. User the same password for all users: ```changeme```
+7. Modify /etc/kibana/kibana.yml:
 ```
 sudo nano /etc/kibana/kibana.yml
 ```
-7. Values to change:
+8. Values to change:
 ```
 elasticsearch.username: "elastic"
 elasticsearch.password: "changeme"
 ```
-7. Start ElasticSearch and Kibana services:
-```
-sudo service elasticsearch start && sudo service kibana start
-```
-8. Navigate to http://ip-address:5601
-9. Login with default credentials: elastic/changeme
-10. Explore the 'Monitoring' and 'Management' links
-11. Feel free to install other monitoring plug-ins to find out which one you like the most
-12. Links provided on the previous slide...
+9. Navigate to http://ip-address:5601
+10. Login with default credentials: elastic/changeme
+11. Explore the 'Monitoring' and 'Management' links
+12. Feel free to install other monitoring plug-ins to find out which one you like the most
+13. Links provided on the previous slide...

@@ -1,6 +1,6 @@
 # Indices vs. Types #
 
-* ElasticSearch allows multiple types in the same index
+* ElasticSearch used to allow multiple types in the same index
 * Shards are allocated per index not per type
 * Mapping must not conflict within an Index not within a Type
 * Smaller shards are easier to distribute evenly between nodes
