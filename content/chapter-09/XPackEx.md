@@ -19,7 +19,7 @@ sudo ./bin/kibana-plugin install x-pack
 cd /usr/share/elasticsearch/bin/x-pack/
 sudo ./setup-passwords interactive
 ```
-5. User the same password for all users: ```changme```
+5. User the same password for all users: ```changeme```
 6. Modify /etc/kibana/kibana.yml:
 ```
 sudo nano /etc/kibana/kibana.yml

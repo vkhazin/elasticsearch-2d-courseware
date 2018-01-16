@@ -7,3 +7,4 @@
 * IndexTypeApi: broken code snippet
 * In the labs, replace bullet points with numbers
 * Chapter 4: drop the aggregation data slide
+* Shorten the ch09 and merge ch10 into ch09
