@@ -1,6 +1,6 @@
 # Logistics #
 
-* All times are in **Paris Time Zone**
+* All times are in [Paris Time Zone](https://time.is/Paris)
 * Start at 8:30
 * Morning break around 10:30 for 15 min
 * Lunch break 12:00 to 13:00
