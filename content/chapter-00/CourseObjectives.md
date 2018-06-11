@@ -10,5 +10,5 @@
 * Setup Logstash to transform log lines into json documents
 * Install and configure Kibana
 * Leverage Kibana's discover, visualize, and dashboard functionality
-* Install and explorer X-Pack
+* Install and explore X-Pack
 * Review production planning and operational principals

@@ -158,19 +158,25 @@
 17. There is no (more) option to delete the mapping - delete and recreate index is the only option :-(
   ```
   curl -XDELETE localhost:9200/orders
-  
-  curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=true' \
-    -H 'content-type: application/json' \
-    -d '
+
+  curl -XPUT 'localhost:9200/orders?pretty=true' \
+  -H 'content-type: application/json' \
+  -d '
   {
-    "orders" : {
-      "properties" : {
-        "id" : {
-          "type" : "double"
-        },
-        "placedOn" : {
-          "type" : "date",
-          "format" : "strict_date_optional_time||epoch_millis"
+    "settings" : {
+      "number_of_shards" : 3,
+      "number_of_replicas" : 2
+    },
+    "mappings" : {
+      "orders" : {
+        "properties" : {
+          "id" : {
+            "type" : "double"
+          },
+          "placedOn" : {
+            "type" : "date",
+            "format" : "strict_date_optional_time||epoch_millis"
+          }
         }
       }
     }
