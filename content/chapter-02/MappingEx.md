@@ -182,13 +182,15 @@
     }
   }'
   ```
-18. User json data from the previous step to define the mapping
+18. Use json data from the previous step to define the mapping
 19. Watch out: there is no warning or confirmation using curl!
 20. Psst: look out for the proper response too:
   ```
   {
-    "acknowledged": true
+    "acknowledged" : true,
+    "shards_acknowledged" : true,
+    "index" : "orders"
   }
-```
+  ```
 
 
