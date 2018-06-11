@@ -8,11 +8,9 @@ curl -XPOST localhost:9200/orders/orders/1 \
   -d '{"id": "1", "placedOn": "2016-10-17T13:03:30.830Z"}'
 ```
 * Type will be created lazily by the same operation
-* To retrieve the document just posted:
-```
-curl 'localhost:9200/orders/orders/_search?pretty=true'
-```
+* To retrieve the document just posted: `curl 'localhost:9200/orders/orders/_search?pretty=true'`
 * Expected result:
+
 ```
 {
   "took" : 0,
@@ -40,5 +38,4 @@ curl 'localhost:9200/orders/orders/_search?pretty=true'
     ]
   }
 }
-
 ```
