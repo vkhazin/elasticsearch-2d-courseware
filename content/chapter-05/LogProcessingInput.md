@@ -1,6 +1,6 @@
 # Logs Processing - Input #
 
-* Typical pipeline is a bit more than hello-world example: one or more input, filter, and output plugins
+* Typical pipeline is a bit more than the hello-world example: one or more input, filter, and output plugins
 * We will configure Logstash to pickup log files and to send data to ElasticSearch
 * Log file: /var/log/cloud-init.log file, snippet of data:
   ```

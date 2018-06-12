@@ -39,7 +39,8 @@
   ```
   sudo service logstash stop && \
   sudo service logstash start && \
-  sudo tail -f -n 100 /var/log/logstash/logstash-plain.log &
+  sleep 10s && \
+  sudo tail -f -n 100 /var/log/logstash/logstash-plain.log
   ```
 7. Check the data has been populated into elastic search:
   ```
