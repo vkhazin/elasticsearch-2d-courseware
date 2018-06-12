@@ -23,6 +23,7 @@ sudo service kibana start
 ```
 7. Populate sample data:
 ```
+cd ~/
 curl -O https://s3.us-east-2.amazonaws.com/elasticsearch-courseware/sample-data/logs.json
 curl  -XPOST 'localhost:9200/_bulk' \
       -H 'content-type: application/json' \
