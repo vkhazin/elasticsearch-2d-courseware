@@ -31,8 +31,13 @@ sudo apt-get update && sudo apt-get install logstash
   ```
 And press enter
 9. Expected response:
-    ```
-    2017-06-20T01:22:14.405+0000 ubuntu Hello World!
-    ```
+```
+  {
+    "@version" => "1",
+    "host" => "ip-172-31-16-19",
+    "@timestamp" => 2018-06-12T06:47:55.703Z,
+    "message" => "Hello World!"
+  }
+```
 10. Logstash adds a timestamp and hostname to the message we sent
 11. To exit Logstash use keyboard combination ctrl-d
