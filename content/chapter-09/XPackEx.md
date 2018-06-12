@@ -33,6 +33,7 @@ sudo nano /etc/kibana/kibana.yml
 elasticsearch.username: "elastic"
 elasticsearch.password: "changeme"
 ```
-9. Navigate to http://ip-address:5601
-10. Login with default credentials: elastic/changeme
-11. Explore the 'Monitoring' and 'Management' links
+9. Restart Kibana service: `sudo service kibana restart`
+10. Navigate to http://ip-address:5601
+11. Login with default credentials: elastic/changeme
+12. Explore the 'Monitoring' and 'Management' links
