@@ -14,5 +14,5 @@
   Hello from Docker!  
   ... more text comes here...  
   ```
-8. List your container: ```sudo docker ps -a```
+8. List local containers: ```sudo docker ps -a```
 9. Expected output is a list with one item on it

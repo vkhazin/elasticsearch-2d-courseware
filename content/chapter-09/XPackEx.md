@@ -36,5 +36,3 @@ elasticsearch.password: "changeme"
 9. Navigate to http://ip-address:5601
 10. Login with default credentials: elastic/changeme
 11. Explore the 'Monitoring' and 'Management' links
-12. Feel free to install other monitoring plug-ins to find out which one you like the most
-13. Links provided on the previous slide...
