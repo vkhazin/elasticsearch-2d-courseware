@@ -1,4 +1,4 @@
-# VM vs Container #
+# VM vs. Container #
 
 * The VM model blends an application, a full guest OS, and a disk emulation into the image
 * Container model uses just the application's dependencies and runs them directly on the host OS

@@ -1,9 +1,9 @@
 # Summary
 
-## Course Overview ##
+## Course Overview
 * [Overview](./README.md)
 
-## Chapter 0: Overview ##
+## Chapter 0: Overview
 * [Introduction](./content/chapter-00/Intro.md)
 * [Why ElasticSearch](./content/chapter-00/WhyElastic.md)
 * [Course objectives](./content/chapter-00/CourseObjectives.md)
@@ -13,7 +13,7 @@
 * [About Participants](./content/chapter-00/AboutParticipants.md)
 * [Logistics](./content/chapter-00/Logistics.md)
 
-## Chapter 1: Introduction ##
+## Chapter 1: Introduction
 * [Introduction](./content/chapter-01/Intro.md)
 * [Terminology](./content/chapter-01/Terminology-1.md)
 * [Terminology Cont'd](./content/chapter-01/Terminology-2.md)
@@ -29,7 +29,7 @@
 * [Indices and Aliases](./content/chapter-01/IndicesAliases.md)
 * [Summary](./content/chapter-01/Summary.md)
 
-## Chapter 2: ElasticSearch Index ##
+## Chapter 2: ElasticSearch Index
 * [Introduction](./content/chapter-02/Intro.md)
 * [Index and Type](./content/chapter-02/IndexType.md)
 * [Index and Type Api](./content/chapter-02/IndexTypeApi.md)
@@ -38,7 +38,7 @@
 * [Mapping Exercise](./content/chapter-02/MappingEx.md)
 * [Summary](./content/chapter-02/Summary.md)
 
-## Chapter 3: Search and Filter ##
+## Chapter 3: Search and Filter
 * [Introduction](./content/chapter-03/Intro.md)
 * [Query Dsl](./content/chapter-03/QueryDsl-1.md)
 * [Query Dsl Cont'd](./content/chapter-03/QueryDsl-2.md)
@@ -52,7 +52,7 @@
 * [Filter Exercise](./content/chapter-03/FilterEx.md)
 * [Summary](./content/chapter-03/Summary.md)
 
-## Chapter 4: Aggregation ##
+## Chapter 4: Aggregation
 * [Introduction](./content/chapter-04/Intro.md)
 * [Terms Aggregation](./content/chapter-04/TermsAggregation.md)
 * [Date Histogram Aggregation](./content/chapter-04/DateHistogramAggregation.md)
@@ -60,7 +60,7 @@
 * [Aggregation Exercise](./content/chapter-04/AggregationEx.md)
 * [Summary](./content/chapter-04/Summary.md)
 
-## Chapter 5: Logstash ##
+## Chapter 5: Logstash
 * [Introduction](./content/chapter-05/Intro.md)
 * [Overview](./content/chapter-05/Overview.md)
 * [Setup](./content/chapter-05/Setup.md)
@@ -71,14 +71,14 @@
 * [Log Processing - Exercise](./content/chapter-05/LogProcessingEx.md)
 * [Summary](./content/chapter-05/Summary.md)
 
-## Chapter 6: Filebeat ##
+## Chapter 6: Filebeat
 * [Introduction](./content/chapter-06/Intro.md)
 * [Beats](./content/chapter-06/Beats.md)
 * [Filebeat](./content/chapter-06/Filebeat.md)
 * [Filebeat Exercise](./content/chapter-06/FilebeatEx.md)
 * [Summary](./content/chapter-06/Summary.md)
 
-## Chapter 7: Kibana ##
+## Chapter 7: Kibana
 * [Introduction](./content/chapter-07/Intro.md)
 * [Setup](./content/chapter-07/Setup.md)
 * [Sample Data Setup](./content/chapter-07/SampleDataSetup.md)
@@ -109,14 +109,19 @@
 
 ## Chapter 9: Preparing for Productions
 * [Introduction](./content/chapter-09/Intro.md)
+* [Hardware](./content/chapter-09/Hardware.md)
+* [Installation](./content/chapter-09/Installation.md)
+* [Configuration](./content/chapter-09/Configuration.md)
 * [Capacity Planning](./content/chapter-09/CapacityPlanning.md)
 * [Memory Planning](./content/chapter-09/MemoryPlanning.md)
 * [CPU Planning](./content/chapter-09/CpuPlanning.md)
 * [Network Capacity](./content/chapter-09/NetworkCapacity.md)
 * [Performance Testing](./content/chapter-09/PerformanceTesting.md)
-* [Monitoring](./content/chapter-09/Monitoring.md)
+* [Monitoring](./content/chapter-09/Monitoring-1.md)
+* [Monitoring Cont's](./content/chapter-09/Monitoring-2.md)
 * [Monitoring Plug-ins](./content/chapter-09/MonitoringPlugins.md)
 * [X-Pack Exercise](./content/chapter-09/XPackEx.md)
+* [Alerting](./content/chapter-09/Alerting.md)
 * [Performance Tuning](./content/chapter-09/PerformanceTuning.md)
 * [Query Choices](./content/chapter-09/QueryChoices.md)
 * [Tuning References](./content/chapter-09/TuningReferences.md)
@@ -126,15 +131,6 @@
 * [VM vs Container](./content/chapter-09/VMvsContainer.md)
 * [Summary](./content/chapter-09/Summary.md)
 
-## Chapter 10: Running in Production ##
-* [Introduction](./content/chapter-10/Intro.md)
-* [Installation](./content/chapter-10/Installation.md)
-* [Configuration](./content/chapter-10/Configuration.md)
-* [Hardware](./content/chapter-10/Hardware.md)
-* [Monitoring](./content/chapter-10/Monitoring.md)
-* [Alerting](./content/chapter-10/Alerting.md)
-* [Summary](./content/chapter-10/Summary.md)
-
-## Chapter 11: Course Summary ##
-* [What have we learned](./content/chapter-11/Summary.md)
-* [Thank you!](./content/chapter-11/ThankYou.md)
+## Chapter 10: Course Summary
+* [What have we learned](./content/chapter-10/Summary.md)
+* [Thank you!](./content/chapter-10/ThankYou.md)

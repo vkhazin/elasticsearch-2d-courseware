@@ -1,4 +1,4 @@
-# Monitoring #
+# Monitoring Cont'd
 
 * Plug-ins from Elastic.co and from third parties: Marvel, ElasticSearchHQ, BigDesk, others 
 * Since everything in ElasticSearch is RESTFul Api: may choose to build your own monitoring
