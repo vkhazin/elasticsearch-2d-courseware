@@ -1,10 +1,6 @@
 # Network Capacity #
 
-* I have had a great experience of taking a non-prod environment down at shomi.com
-* By running a lot of elastic search and index requests
-* Some people still grimace when they see me
-* It was not the bandwidth
-* Number of sockets opened on the server, on the client, on the network appliance
-* There was a bug in firmware that would crash network appliance under specific type of load
-* There were subsequent tests where client reached tens of thousands of open tcp/ip sockets pending
-* Server was alright, client running heavy batch job was not
+* ElasticSearch is not sending too much data over the network
+* But ElasticSearch is leveraging http(s) protocol, http2 seems to be still [work-in-process](https://github.com/elastic/elasticsearch/issues/10981)
+* Number of sockets opened on the server, on the client, and on the network appliance could be a problem
+* Server was alright since it listens on one port, the client running heavy batch job was not, it was getting saturated with the response sockets
