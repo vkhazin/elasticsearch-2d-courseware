@@ -118,7 +118,6 @@
 * [Monitoring Plug-ins](./content/chapter-09/MonitoringPlugins.md)
 * [X-Pack Exercise](./content/chapter-09/XPackEx.md)
 * [Performance Tuning](./content/chapter-09/PerformanceTuning.md)
-* [Indices vs. Types](./content/chapter-09/IndexType.md)
 * [Query Choices](./content/chapter-09/QueryChoices.md)
 * [Tuning References](./content/chapter-09/TuningReferences.md)
 * [Data Re-Indexing](./content/chapter-09/DataReindexing.md)

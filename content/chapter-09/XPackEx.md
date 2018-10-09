@@ -1,6 +1,6 @@
 # XPack Exercise #
 
-1. Stop ElasticSearch and Kibana, or installation may fail!:
+1. Stop ElasticSearch and Kibana, or installation may **fail**:
 ```
 sudo service kibana stop && sudo service elasticsearch stop
 ```
