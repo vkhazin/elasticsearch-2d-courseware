@@ -2,9 +2,9 @@
 
 * All times are in [Paris Time Zone](https://time.is/Paris)
 * Start at 8:30
-* Morning break around 10:30 for 15 min
+* Morning breaks: around 9:30 and 10:30 for 10 min each
 * Lunch break 12:00 to 13:00
-* Afternoon breaks: around 14:00 and 15:30 for 15 min each 
+* Afternoon breaks: around 14:00, 15:00 and 16:00 for 10 min each 
 * Finish at 16:30
 * Materials are available on-line during and after the course
 * Materials contain external links - please follow them as we paddle along
