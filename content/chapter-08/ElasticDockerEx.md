@@ -8,7 +8,7 @@
   sudo service filebeat stop
   sudo service logstash stop
   ```
-3. Since previously installed Elastic is running, we will use a different port: 9201 for api
+3. Since previously installed Elastic is confifgured to use port 9200, we will use a different port: 9201 for the container
   ```
    sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" \
    -e "transport.host=127.0.0.1" \
