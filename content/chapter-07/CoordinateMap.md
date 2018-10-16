@@ -10,7 +10,7 @@
   ```
   curl -s https://s3.us-east-2.amazonaws.com/elasticsearch-courseware/sample-data/logMappings.sh | bash -
   ```
-* Go back to Visualize tab and select 'Tile map'
+* Go back to Visualize tab and select 'Coordinate map'
 * Here it is a bit tricky - may need to go back to settings and refresh the fields
 * Select 'Geo Coordinates' and select 'geo.coordinates' field
 * Select 'play' button on top to apply changes and explore zoom in/out
