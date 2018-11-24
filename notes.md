@@ -1,4 +1,4 @@
-# Notes from 2018-01 event
+## Notes from 2018-01 event
 
 * App Side Joins: replace post with get, and two types in one index is no more possible
 * Exercise setup, add step-by-step for putty users. Missing instructions for import key and ubuntu username
@@ -7,4 +7,6 @@
 * IndexTypeApi: broken code snippet
 * In the labs, replace bullet points with numbers
 * Chapter 4: drop the aggregation data slide
-* Shorten the ch09 and merge ch10 into ch09
+
+## Notes from 2018-01 event
+

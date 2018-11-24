@@ -36,9 +36,9 @@
   ```
   sudo service filebeat start && sudo service filebeat status
   ```
-9. Query ElasticSearch using culr to confirm new index has been created e.g.: filebeat-6.1.1-2018.01.13
+9. Query ElasticSearch using `curl` to confirm new index has been created e.g.: filebeat-6.1.1-2018.01.13
   ```
   curl localhost:9200/_cat/indices
   ```
 10. Query the data inside the newly created index
-11. Review more <a href="https://www.elastic.co/guide/en/beats/filebeat/current/elasticsearch-output.html" target="_blank">options for elasticsearch output</a>
+11. Review more [options](https://www.elastic.co/guide/en/beats/filebeat/current/elasticsearch-output.html) for elasticsearch output
