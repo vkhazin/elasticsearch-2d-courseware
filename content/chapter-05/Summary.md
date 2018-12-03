@@ -2,4 +2,4 @@
 
 * What is the purpose of Logstash product?
 * What are the components of Logstash pipeline?
-* What filter plug-in we've used to extract data from log file?
+* What filter plugin we've used to extract data from log file?
