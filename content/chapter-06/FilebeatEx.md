@@ -22,7 +22,7 @@
   ```
   - type: log
 
-    # Change to true to enable this prospector configuration.
+    # Change to true to enable this input configuration.
     enabled: true
 
     # Paths that should be crawled and fetched. Glob based paths.

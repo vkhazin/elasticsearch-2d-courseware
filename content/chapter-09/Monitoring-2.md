@@ -1,7 +1,7 @@
 # Monitoring Cont'd
 
 * Plug-ins from Elastic.co and from third parties: Marvel, ElasticSearchHQ, BigDesk, others 
-* Since everything in ElasticSearch is RESTFul Api: may choose to build your own monitoring
+* Since everything in ElasticSearch is REST Api: may choose to build your own monitoring
 * Aws offers dashboards to monitor EC2 instances and Paas/Daas
 * Azure offers monitoring tools
 * <a href="https://www.datadoghq.com/pricing/" target="_blank">DataDog is $15/node monitoring</a>
