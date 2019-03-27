@@ -1,4 +1,4 @@
-# XPack Exercise #
+# X-Pack Exercise #
 
 1. X-Pack is installed as a part of Kibana and ElasticSearch 6.4.2
 1. Navigate to http://ip-address:5601
