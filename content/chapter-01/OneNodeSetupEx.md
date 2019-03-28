@@ -82,4 +82,8 @@ curl -XPOST 'localhost:9200/orders/orders/1?pretty=true' \
 ```
 curl 'localhost:9200/orders/orders/_search?pretty=true&q=id:1'
 ```
-16. Please review results - where are: doc id, document data, index name, type name, and search score? 
+16. Please review results - where are: doc id, document data, index name, type name, and search score?
+1. Next time you can run the setup script at once:
+```
+curl https://gist.githubusercontent.com/vkhazin/998b73ddd7301209fc5bc18f5945eb2e/raw/6756e5766210029e1b34494ccf4cdb0357181a34/gistfile1.txt | bash -
+```
