@@ -33,9 +33,10 @@ Modern architecture of distributed database and share-nothing approach is luring
 * Understanding ElasticSearch cluster, shards, and replicas
 * Analysis of mappings, indexing, and their operations
 
-### Search, Filter and Aggregation Dsl ###
+### Search, Filter, Sql and Aggregation Dsl ###
 * Understanding search Query DSL
 * Overview of Filter DSL compared to Query DSL
+* Sql syntax for querying Elastic Search
 * Syntax for Aggregation Queries
 
 ### Kibana ###

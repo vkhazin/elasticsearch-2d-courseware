@@ -51,7 +51,7 @@ curl localhost:9200
 ```
 11. Posting first document:
 ```
-curl -XPOST 'localhost:9200/orders/orders/1?pretty=true' \
+curl -XPOST 'localhost:9200/orders/_doc/1?pretty=true' \
     -H 'content-type: application/json' \
     -d '{
   "id": "1", 
@@ -63,9 +63,9 @@ curl -XPOST 'localhost:9200/orders/orders/1?pretty=true' \
 ```json
   {
     "_index" : "orders",
-    "_type" : "orders",
+    "_type" : "_doc",
     "_id" : "1",
-    "_version" : 2,
+    "_version" : 1,
     "result" : "created",
     "_shards" : {
       "total" : 2,
@@ -80,7 +80,7 @@ curl -XPOST 'localhost:9200/orders/orders/1?pretty=true' \
 14. ```_primary_term```: shard id where primary copy stored
 15. First query:
 ```
-curl 'localhost:9200/orders/orders/_search?pretty=true&q=id:1'
+curl 'localhost:9200/orders/_doc/_search?pretty=true&q=id:1'
 ```
 16. Please review results - where are: doc id, document data, index name, type name, and search score?
 1. Next time you can run the setup script at once:

@@ -51,7 +51,8 @@
 * [Filter Example](./content/chapter-03/FilterExample.md)
 * [Filter Exercise](./content/chapter-03/FilterEx.md)
 * [Sql](./content/chapter-03/Sql.md)
-
+* [Sql-Cli](./content/chapter-03/Sql-Cli.md)
+* [Sql Exercise](./content/chapter-03/SqlEx.md)
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Aggregation

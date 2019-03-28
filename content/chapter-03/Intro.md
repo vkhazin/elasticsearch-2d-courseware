@@ -2,3 +2,4 @@
 
 * Understanding Query DSL
 * Filter compared to Search
+* Sql syntax
