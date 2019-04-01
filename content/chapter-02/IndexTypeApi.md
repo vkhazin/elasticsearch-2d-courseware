@@ -3,7 +3,7 @@
 * How do we create an index?
 * Index will be created lazily by ElasticSeach when we post a document:
 ```
-curl -XPOST localhost:9200/orders/orders/1 \
+curl -XPOST localhost:9200/orders/_doc/1 \
   -H 'content-type: application/json' \
   -d '{"id": "1", "placedOn": "2016-10-17T13:03:30.830Z"}'
 ```
@@ -28,7 +28,7 @@ curl -XPOST localhost:9200/orders/orders/1 \
     "hits" : [
       {
         "_index" : "orders",
-        "_type" : "orders",
+        "_type" : "_doc",
         "_id" : "1",
         "_score" : 1.0,
         "_source" : {
