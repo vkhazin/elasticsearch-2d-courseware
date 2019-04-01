@@ -98,6 +98,8 @@
 * [Dashboard](./content/chapter-07/Dashboard.md)
 * [Timelion](./content/chapter-07/Timelion.md)
 * [Timelion Exercise](./content/chapter-07/TimelionEx.md)
+* [Canvas](./content/chapter-07/Canvas.md)
+* [Canvas Exercise](./content/chapter-07/CanvasEx.md)
 * [Console](./content/chapter-07/Console.md)
 * [Summary](./content/chapter-07/Summary.md)
 

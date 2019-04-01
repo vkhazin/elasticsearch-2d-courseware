@@ -3,7 +3,7 @@
 * Docs stored, indexed, and searched individually - application joins the docs
 * Get the order by id first:
 ```
-GET http://localhost:9200/ordering/orders/1
+GET http://localhost:9200/ordering/_doc/1
 {
 	"id": "1",
 	"placedOn": "2016-10-17T13:03:30.830Z",

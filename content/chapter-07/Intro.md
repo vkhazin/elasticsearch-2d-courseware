@@ -5,3 +5,5 @@
 * Visualize
 * Dashboard
 * Timelion
+* Canvas
+* Console
