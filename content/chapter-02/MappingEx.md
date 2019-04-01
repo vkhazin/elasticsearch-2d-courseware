@@ -12,7 +12,7 @@
 4. Give it few minutes before you get json response
 5. Post new document:
   ```
-  curl -XPOST localhost:9200/orders/orders/1 \
+  curl -XPOST localhost:9200/orders/_doc/1 \
     -H 'content-type: application/json' \
     -d '
   {
@@ -22,14 +22,14 @@
 ```
 6. Fetch mapping:
   ```
-  curl 'localhost:9200/orders/orders/_mapping?pretty=true'
+  curl 'localhost:9200/orders/_doc/_mapping?pretty=true'
   ```
 7. Expected response:
   ```
   {
     "orders" : {
       "mappings" : {
-        "orders" : {
+        "_doc" : {
           "properties" : {
             "id" : {
               "type" : "text",
@@ -57,7 +57,7 @@
   {
     "orders" : {
       "mappings" : {
-        "orders" : {
+        "_doc" : {
           "properties" : {
             "id" : {
               "type" : "text",
@@ -81,12 +81,12 @@
 9. What's the outcome? And why?
 10. Try modifying existing type mapping:
   ```
-  curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=true' \
+  curl -XPUT 'localhost:9200/orders/_doc/_mapping?pretty=true' \
     -H 'content-type: application/json' \
     -d '{
     "orders" : {
       "mappings" : {
-        "orders" : {
+        "_doc" : {
           "properties" : {
             "id" : {
               "type" : "text",
@@ -110,11 +110,11 @@
 11. What now? Why?
 12. Let us try again:
   ```
-  curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=true' \
+  curl -XPUT 'localhost:9200/orders/_doc/_mapping?pretty=true' \
     -H 'content-type: application/json' \
     -d '
   {
-    "orders" : {
+    "_doc" : {
       "properties" : {
         "id" : {
           "type" : "text",
@@ -136,11 +136,11 @@
 13. Did it work? What's the difference?
 14. Let's modify data type for existing field
   ```
-  curl -XPUT 'localhost:9200/orders/orders/_mapping?pretty=true' \
+  curl -XPUT 'localhost:9200/orders/_doc/_mapping?pretty=true' \
     -H 'content-type: application/json' \
     -d '
   {
-    "orders" : {
+    "_doc" : {
       "properties" : {
         "id" : {
           "type" : "double"
@@ -168,7 +168,7 @@
       "number_of_replicas" : 2
     },
     "mappings" : {
-      "orders" : {
+      "_doc" : {
         "properties" : {
           "id" : {
             "type" : "double"
