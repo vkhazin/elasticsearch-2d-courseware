@@ -12,7 +12,7 @@
     </a>    
 </p>
 
-* Course materials can be accessed [online1](https://vkhazin.gitbooks.io/elasticsearch-courseware-2d/) or [online2](http://elasticsearch-2d-courseware.surge.sh/)
+* Course materials can be accessed [online1](http://elasticsearch-2d-courseware.surge.sh/) or [online2](https://vkhazin.gitbooks.io/elasticsearch-courseware-2d/)
 * If you did not have a chance to fill-out [pre-course survey](https://www.surveymonkey.com/r/SRBF5DF), please do so now
 * Take a moment to register at GitHub.com - you can clone the course repo and make your own comments throughout the course
 * Select [repository url](https://github.com/vkhazin/elasticsearch-courseware-2d) and then 'fork' link to create a repo for yourself 
