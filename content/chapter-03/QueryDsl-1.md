@@ -2,7 +2,7 @@
 
 * Json defined query:
 ```
-curl -XPOST 'http://localhost:9200/orders/orders/_search?pretty=true' \
+curl -XPOST 'http://localhost:9200/orders/_doc/_search?pretty=true' \
         -H 'content-type:application/json' \
         -d '
 {

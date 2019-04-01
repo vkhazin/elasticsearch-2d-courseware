@@ -7,7 +7,7 @@ sudo service elasticsearch restart
 ```
 * Populate few orders:
 ```
-curl -XPOST localhost:9200/orders/orders/2 \
+curl -XPOST localhost:9200/orders/_doc/2 \
   -H 'content-type: application/json' \
   -d '
 {
@@ -17,7 +17,7 @@ curl -XPOST localhost:9200/orders/orders/2 \
 }'
 ```
 ```
-curl -XPOST localhost:9200/orders/orders/3 \
+curl -XPOST localhost:9200/orders/_doc/3 \
   -H 'content-type: application/json' \
   -d '
 {
@@ -28,7 +28,7 @@ curl -XPOST localhost:9200/orders/orders/3 \
 }'
 ```
 ```
-curl -XPOST localhost:9200/orders/orders/4 \
+curl -XPOST localhost:9200/orders/_doc/4 \
   -H 'content-type: application/json' \
   -d '
 {
@@ -39,7 +39,7 @@ curl -XPOST localhost:9200/orders/orders/4 \
 ```
 * Confirm there are some records to search on:
 ```
-curl 'localhost:9200/orders/orders/_search?pretty=true'
+curl 'localhost:9200/orders/_doc/_search?pretty=true'
 ```
 * How many documents did you find?
 * How do you know whether got all the documents or just first page of records?

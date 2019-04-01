@@ -4,7 +4,7 @@
 * Support is more limited than json Dsl, but Kibana seems to be just fine with it
 * <b>q</b> parameter allows to specify query in lucene formatted query:
 ```
-curl 'localhost:9200/orders/orders/_search?q=placedOn:*&pretty=true'
+curl 'localhost:9200/orders/_doc/_search?q=placedOn:*&pretty=true'
 ```
 * Expected result:
 ```
@@ -16,7 +16,7 @@ curl 'localhost:9200/orders/orders/_search?q=placedOn:*&pretty=true'
     "hits" : [ 
       {
         "_index" : "ordering",
-        "_type" : "order",
+        "_type" : "_doc",
         "_id" : "3",
         "_score" : 0.30685282,
         "_source" : {
