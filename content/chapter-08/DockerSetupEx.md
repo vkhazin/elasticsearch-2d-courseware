@@ -1,7 +1,7 @@
 # Docker Setup Exercise #
 
 1. Install using Ubuntu repositories: ```sudo apt install docker.io -y```
-2. Alternatively, by downloading from <a href="latest version from download.docker.com" target="_blank">download.docker.com</a>
+2. Alternatively, by downloading from [download.docker.com](https://download.docker.com/)
 3. Checking that docker cli (command line interface) is installed: ```docker --version```
 4. Checking that docker daemon is running: ```sudo docker images```
 5. Expected output is an empty list as we have not created/pulled any images
