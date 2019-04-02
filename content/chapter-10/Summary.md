@@ -7,7 +7,7 @@
 * What are components of ElasticSearch cluster?
 * How do we query ElasticSearch?
 * What's the different between a query and a filter?
-* What synta  options do you recall querying ElasticSearch?
+* What syntax  options do you recall querying ElasticSearch?
 * What aggregation types do you recall?
 * What's Logstash?
 * What Beats do you recall?
