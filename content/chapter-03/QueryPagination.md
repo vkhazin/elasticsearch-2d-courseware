@@ -1,9 +1,9 @@
-# Query Pagination #
+# Query Pagination
 
-* Query results are limited to page size of 10 by default
+* Query results are limited to a page size of 10 by default
 * Query pagination and page number controlled by From/Size parameters:
-```
-curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
+  ```
+  curl -XPOST 'localhost:9200/orders/_search?pretty=true' \
   -H 'content-type: application/json' \
   -d '
   { 
@@ -13,18 +13,20 @@ curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
       "match_all":{}
     }
   }'
-```
-* Expected result (partially presented):
-```
-{
+  ```
+* Expected result \(partially presented\):
+  ```
+  {
   ...
   "hits" : {
-    "total" : 1,
+    "total" : {
+      "value" : 0,
+      "relation" : "eq"
+    },
     "max_score" : 1.0,
     "hits" : [
       {
         "_index" : "orders",
-        "_type" : "orders",
         "_id" : "1",
         "_score" : 1.0,
         "_source" : {
@@ -35,7 +37,10 @@ curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
       ...
     ]
   }
-}
-```
-* Note hits.total field, what it stands for?
+  }
+  ```
+* Note `hits.total.value` field, what does it stand for?
 * How results are sorted?
+
+
+
