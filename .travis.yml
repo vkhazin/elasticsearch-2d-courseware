@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "10"
+  - "12"
 
 branches:
   only:
@@ -8,7 +8,7 @@ branches:
     
 script:
   - npm install
-  - npm install surge -g
-  - node_modules/.bin/gitbook install
-  - node_modules/.bin/gitbook build
-  - node_modules/.bin/surge --domain http://elasticsearch-2d-courseware.surge.sh/ --project ./_book
+  # - npm install surge -g
+  - ./node_modules/.bin/gitbook install
+  - ./node_modules/.bin/gitbook build
+  - ./node_modules/.bin/surge --domain http://elasticsearch-2d-courseware.surge.sh/ --project ./_book
