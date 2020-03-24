@@ -1,9 +1,9 @@
-# Query Dsl Compound Clause #
+# Query Dsl Compound Clause
 
-* <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/compound-queries.html" target="_blank">Combing leaf query clauses</a>
-* bool frequently used and is simple to use:
-```
-curl 'localhost:9200/orders/_doc/_search?pretty=true' \
+* [Combing leaf query clauses](https://www.elastic.co/guide/en/elasticsearch/reference/current/compound-queries.html)
+* `bool` is frequently used:
+  ```
+  curl 'localhost:9200/orders/_search?pretty=true' \
   -H 'content-type:application/json' \
   -d '{
   "query" : {
@@ -18,5 +18,8 @@ curl 'localhost:9200/orders/_doc/_search?pretty=true' \
       }
     }
   }
-}'
-```
+  }'
+  ```
+
+
+

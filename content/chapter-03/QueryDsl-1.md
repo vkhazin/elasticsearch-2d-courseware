@@ -1,11 +1,11 @@
-# Query Dsl #
+# Query Dsl
 
 * Json defined query:
-```
-curl -XPOST 'http://localhost:9200/orders/_doc/_search?pretty=true' \
+  ```
+  curl -XPOST 'http://localhost:9200/orders/_search?pretty=true' \
         -H 'content-type:application/json' \
         -d '
-{
+  {
    "query": {
       "bool": {
          "must": {
@@ -15,5 +15,8 @@ curl -XPOST 'http://localhost:9200/orders/_doc/_search?pretty=true' \
          }
       }
    }
-}'
-```
+  }'
+  ```
+
+
+

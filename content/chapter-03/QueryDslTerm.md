@@ -1,13 +1,13 @@
-# Query Dsl Term #
+# Query Dsl Term
 
 * Frequently used to match on exact value
-* Equivalent of sql statement:
-```
-select * from orders where id = "1"
-```
+* An equivalent of Sql statement:
+  ```
+  select * from orders where id = "1"
+  ```
 * Example
-```
-curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
+  ```
+  curl -XPOST 'localhost:9200/orders/_search?pretty=true' \
   -H 'content-type:application/json' \
   -d '{
   "query" : {
@@ -15,13 +15,13 @@ curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
       "id": "1"
     }
   }
-}'
-```
-* Note that 'from orders' part of the statement is part of the url rather than body
-* Capable of handling numbers, booleans, dates, and text.
-* Often used as a filter rather than for scoring, commonly used with ```constant_score```:
-```
-curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
+  }'
+  ```
+* Note that 'from orders' part of the statement is part of the Url rather than body
+* Capable of handling numbers, booleans, dates, and text
+* Often used as a filter rather than for scoring, commonly used with `constant_score`:
+  ```
+  curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
   -H 'content-type:application/json' \
   -d '{
   "query" : {
@@ -33,5 +33,8 @@ curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
       }
     }
   }
-}'
-```
+  }'
+  ```
+
+
+
