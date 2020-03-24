@@ -2,7 +2,7 @@
 
 * An Index can be created explicitly using index API
 * Number of shards are defined when an index is created
-* Number of shards cannot be changed after the index has been created
+* Number of shards cannot be changed after the index has been created, there is a [shrink API](https://www.elastic.co/guide/en/elasticsearch/reference/master/indices-shrink-index.html) with caveats
 * The number of replicas can be updated on an existing index:
   ```
   PUT /index-name/_settings
