@@ -2,10 +2,10 @@
 
 * Defines how document and its fields are stored and indexed
 * Mapping can be derived dynamically by ElasticSearch
-* Handful core data types are [supported](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html)
+* A handful of core data types are [supported](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html)
 * Mapping can be added to an existing index for _**new fields**_
 * Existing field mapping not always possible to modify
-* ElasticSearch will derive mapping for new type and for new fields:
+* ElasticSearch will derive mapping for a new type and for new fields:
   ```
   curl -XPOST localhost:9200/orders/_doc/1 \
     -H 'Content-Type: application/json' \
@@ -37,7 +37,7 @@
     }
   }
   ```
-* Rich support for date-time formats [https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-date-format.html\#built-in-date-formats](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-date-format.html#built-in-date-formats)
+* Rich support for [date-time formats](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-date-format.html#built-in-date-formats)
 
 
 
