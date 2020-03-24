@@ -1,9 +1,9 @@
-# Mapping #
+# Mapping
 
 * Defines how document and its fields are stored and indexed
 * Mapping can be derived dynamically by ElasticSearch
-* Handful core data types are <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html" target="_blank">supported</a>
-* Mapping can be added to existing index for <a style="color:red">new fields</a>
+* Handful core data types are [supported](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html)
+* Mapping can be added to an existing index for _**new fields**_
 * Existing field mapping not always possible to modify
 * ElasticSearch will derive mapping for new type and for new fields:
   ```
@@ -11,7 +11,7 @@
     -H 'Content-Type: application/json' \
     -d '{"id": "1", "placedOn": "2016-10-17T13:03:30.830Z"}'
   ```
-* Retrieving existing mappings: ```curl 'localhost:9200/orders/_doc/_mapping?pretty=true'```
+* Retrieving existing mappings: `curl 'localhost:9200/orders/_doc/_mapping?pretty=true'`
 * Expected response:
   ```
   {
@@ -37,4 +37,7 @@
     }
   }
   ```
-* Rich support for <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-date-format.html#built-in-date-formats" target="_blank">date-time formats</a>
+* Rich support for date-time formats [https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-date-format.html\#built-in-date-formats](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-date-format.html#built-in-date-formats)
+
+
+

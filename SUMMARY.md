@@ -1,9 +1,11 @@
 # Summary
 
 ## Course Overview
+
 * [Overview](./README.md)
 
 ## Chapter 0: Overview
+
 * [Introduction](./content/chapter-00/Intro.md)
 * [Why ElasticSearch](./content/chapter-00/WhyElastic.md)
 * [Course objectives](./content/chapter-00/CourseObjectives.md)
@@ -14,6 +16,7 @@
 * [Logistics](./content/chapter-00/Logistics.md)
 
 ## Chapter 1: Introduction
+
 * [Introduction](./content/chapter-01/Intro.md)
 * [Terminology](./content/chapter-01/Terminology-1.md)
 * [Terminology Cont'd](./content/chapter-01/Terminology-2.md)
@@ -30,15 +33,17 @@
 * [Summary](./content/chapter-01/Summary.md)
 
 ## Chapter 2: ElasticSearch Index
+
 * [Introduction](./content/chapter-02/Intro.md)
-* [Index and Type](./content/chapter-02/IndexType.md)
-* [Index and Type Api](./content/chapter-02/IndexTypeApi.md)
+* [Index](./content/chapter-02/IndexType.md)
+* [Index Api](./content/chapter-02/IndexTypeApi.md)
 * [Index Settings](./content/chapter-02/IndexSettings.md)
 * [Mapping](./content/chapter-02/Mapping.md)
 * [Mapping Exercise](./content/chapter-02/MappingEx.md)
 * [Summary](./content/chapter-02/Summary.md)
 
 ## Chapter 3: Search and Filter
+
 * [Introduction](./content/chapter-03/Intro.md)
 * [Query Dsl](./content/chapter-03/QueryDsl-1.md)
 * [Query Dsl Cont'd](./content/chapter-03/QueryDsl-2.md)
@@ -56,6 +61,7 @@
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Aggregation
+
 * [Introduction](./content/chapter-04/Intro.md)
 * [Terms Aggregation](./content/chapter-04/TermsAggregation.md)
 * [Date Histogram Aggregation](./content/chapter-04/DateHistogramAggregation.md)
@@ -64,6 +70,7 @@
 * [Summary](./content/chapter-04/Summary.md)
 
 ## Chapter 5: Logstash
+
 * [Introduction](./content/chapter-05/Intro.md)
 * [Overview](./content/chapter-05/Overview.md)
 * [Setup](./content/chapter-05/Setup.md)
@@ -75,6 +82,7 @@
 * [Summary](./content/chapter-05/Summary.md)
 
 ## Chapter 6: Filebeat
+
 * [Introduction](./content/chapter-06/Intro.md)
 * [Beats](./content/chapter-06/Beats.md)
 * [Filebeat](./content/chapter-06/Filebeat.md)
@@ -82,6 +90,7 @@
 * [Summary](./content/chapter-06/Summary.md)
 
 ## Chapter 7: Kibana
+
 * [Introduction](./content/chapter-07/Intro.md)
 * [Setup](./content/chapter-07/Setup.md)
 * [Sample Data Setup](./content/chapter-07/SampleDataSetup.md)
@@ -104,6 +113,7 @@
 * [Summary](./content/chapter-07/Summary.md)
 
 ## Chapter 8: Running in a Container
+
 * [Introduction](./content/chapter-08/Intro.md)
 * [Docker Overview](./content/chapter-08/DockerOverview.md)
 * [Docker Setup Exercise](./content/chapter-08/DockerSetupEx.md)
@@ -113,6 +123,7 @@
 * [Summary](./content/chapter-08/Summary.md)
 
 ## Chapter 9: Preparing for Productions
+
 * [Introduction](./content/chapter-09/Intro.md)
 * [Hardware](./content/chapter-09/Hardware.md)
 * [Installation](./content/chapter-09/Installation.md)
@@ -137,5 +148,7 @@
 * [Summary](./content/chapter-09/Summary.md)
 
 ## Chapter 10: Course Summary
+
 * [What have we learned](./content/chapter-10/Summary.md)
 * [Thank you!](./content/chapter-10/ThankYou.md)
+

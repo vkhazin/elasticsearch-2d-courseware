@@ -8,7 +8,7 @@
   -d '{"id": "1", "placedOn": "2016-10-17T13:03:30.830Z"}'
   ```
 * To retrieve the document just posted:
-* `curl 'localhost:9200/orders/_doc/_search?pretty=true'`
+* `curl 'localhost:9200/orders/_search?pretty=true'`
 * Expected result:
 
 ```

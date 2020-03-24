@@ -1,7 +1,7 @@
 # Cluster, Shards, and Replicas
 
 * How many nodes in the cluster?
-* Shards cannot be split between nodes, a shard is a complete Lucene index
+* A shard cannot be split between nodes, a shard is a complete Lucene index
 * The question, therefore, is how many shards per cluster and then per node
 * Max Jvm Heap size recommended for ElasticSearch: 32GB
 * Jvm Heap size recommended at half of the RAM

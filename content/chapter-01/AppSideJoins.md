@@ -12,7 +12,7 @@
   ```
 * Get the customer using data from the order `customerId` second:
   ```
-  POST http://localhost:9200/customers/customers/123
+  POST http://localhost:9200/customers/_doc/123
   {
     "id": "123",
     "firstName": "John",
