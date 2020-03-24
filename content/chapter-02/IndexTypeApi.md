@@ -1,15 +1,14 @@
-# Index and Type Api #
+# Index API
 
 * How do we create an index?
-* Index will be created lazily by ElasticSeach when we post a document:
-```
-curl -XPOST localhost:9200/orders/_doc/1 \
+* An index will be created lazily by ElasticSeach when we post a document:
+  ```
+  curl -XPOST localhost:9200/orders/_doc/1 \
   -H 'content-type: application/json' \
   -d '{"id": "1", "placedOn": "2016-10-17T13:03:30.830Z"}'
-```
-* Type will be created lazily by the same operation
+  ```
 * To retrieve the document just posted:
-`curl 'localhost:9200/orders/orders/_search?pretty=true'`
+* `curl 'localhost:9200/orders/_doc/_search?pretty=true'`
 * Expected result:
 
 ```
@@ -40,3 +39,6 @@ curl -XPOST localhost:9200/orders/_doc/1 \
   }
 }
 ```
+
+
+
