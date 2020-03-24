@@ -34,58 +34,61 @@
 10. Expected response:
     ```
     {
-    "name" : "lf6yb_i",
-    "cluster_name" : "elasticsearch",
-    "cluster_uuid" : "MK-dEq3mT7W16Qw3DQRf3w",
-    "version" : {
-    "number" : "6.1.1",
-    "build_hash" : "bd92e7f",
-    "build_date" : "2017-12-17T20:23:25.338Z",
-    "build_snapshot" : false,
-    "lucene_version" : "7.1.0",
-    "minimum_wire_compatibility_version" : "5.6.0",
-    "minimum_index_compatibility_version" : "5.0.0"
-    },
-    "tagline" : "You Know, for Search"
+      "name" : "ip-172-31-19-36",
+      "cluster_name" : "elasticsearch",
+      "cluster_uuid" : "9NP9kO4-S8qm8tMExZg9YA",
+      "version" : {
+        "number" : "7.6.1",
+        "build_flavor" : "default",
+        "build_type" : "deb",
+        "build_hash" : "aa751e09be0a5072e8570670309b1f12348f023b",
+        "build_date" : "2020-02-29T00:15:25.529771Z",
+        "build_snapshot" : false,
+        "lucene_version" : "8.4.0",
+        "minimum_wire_compatibility_version" : "6.8.0",
+        "minimum_index_compatibility_version" : "6.0.0-beta1"
+      },
+      "tagline" : "You Know, for Search"
     }
     ```
-11. Posting first document:
-    ```
+11. Posting the first document:
+    ```bash
     curl -XPOST 'localhost:9200/orders/_doc/1?pretty=true' \
-    -H 'content-type: application/json' \
-    -d '{
-    "id": "1", 
-    "placedOn": "2016-10-17T13:03:30.830Z",
-    "status": "shipped"
+      -H 'content-type: application/json' \
+      -d '{
+      "id": "1", 
+      "placedOn": "2016-10-17T13:03:30.830Z",
+      "status": "shipped"
     }'
     ```
 12. Expected Response:  
     ```json
     {
-    "_index" : "orders",
-    "_type" : "_doc",
-    "_id" : "1",
-    "_version" : 1,
-    "result" : "created",
-    "_shards" : {
-      "total" : 2,
-      "successful" : 1,
-      "failed" : 0
-    },
-    "_seq_no" : 0,
-    "_primary_term" : 1
+      "_index" : "orders",
+      "_type" : "_doc",
+      "_id" : "1",
+      "_version" : 1,
+      "result" : "created",
+      "_shards" : {
+        "total" : 2,
+        "successful" : 1,
+        "failed" : 0
+      },
+      "_seq_no" : 0,
+      "_primary_term" : 1
     }
     ```
-13. `_seq_no`: unique sequence of indexing operation
+13. `_seq_no`: unique sequence of the indexing operation
 14. `_primary_term`: shard id where primary copy stored
 15. First query:
     ```
     curl 'localhost:9200/orders/_doc/_search?pretty=true&q=id:1'
     ```
-16. Please review results - where are: doc id, document data, index name, type name, and search score?
+16. Where are: doc id, document data, index name, type name, and search score?
 17. Next time you can run the setup script at once:
     ```
-    curl https://gist.githubusercontent.com/vkhazin/998b73ddd7301209fc5bc18f5945eb2e/raw/6756e5766210029e1b34494ccf4cdb0357181a34/gistfile1.txt | bash -
+    curl https://gist.githubusercontent.com/vkhazin/6b0e44387368439af8e1750a1a0fa008/raw/02bbac1f7bf0c76e3dd49284da28f253f8ad5c73/Install%2520ElasticSearch%2520v7%2520on%2520Ubuntu%252018.04 \\
+     | bash -
     ```
 
 
