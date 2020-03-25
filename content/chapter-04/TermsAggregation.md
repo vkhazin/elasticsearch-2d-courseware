@@ -1,11 +1,11 @@
-# Terms Aggregation #
+# Terms Aggregation
 
 * Terms aggregation query: 
-```
-curl -XPOST 'http://localhost:9200/orders/orders/_search?pretty=true' \
+  ```
+  curl -XPOST 'http://localhost:9200/orders/_search?pretty=true' \
   -H 'content-type: application/json' \
   -d '
-{
+  {
   "size": 0, 
   "aggregations": {
     "order-status": {
@@ -14,47 +14,66 @@ curl -XPOST 'http://localhost:9200/orders/orders/_search?pretty=true' \
       }
     }
   }
-}'
-```
+  }'
+  ```
 * "size": 0 - suppress query results to fetch aggregations results only
 * "aggregations" or "aggs" - part of ElasticSearch Dsl
 * "order-status" - an arbitrary name for aggregation
 * "terms" - type of aggregation to use
 * Results:
-```
-{
-  "took" : 44,
-  "timed_out" : false,
-  "_shards" : {
-    "total" : 5,
-    "successful" : 5,
-    "skipped" : 0,
-    "failed" : 0
-  },
-  "hits" : {
-    "total" : 4,
-    "max_score" : 0.0,
-    "hits" : [ ]
-  },
-  "aggregations" : {
-    "order-status" : {
-      "doc_count_error_upper_bound" : 0,
-      "sum_other_doc_count" : 0,
-      "buckets" : [
-        {
-          "key" : "pending",
-          "doc_count" : 1
-        },
-        {
-          "key" : "received",
-          "doc_count" : 1
-        },
-        {
-          "key" : "shipped",
-          "doc_count" : 1
-        }
-      ]
+  ```
+  {
+    ...
+    "aggregations" : {
+      "order-status" : {
+        "doc_count_error_upper_bound" : 0,
+        "sum_other_doc_count" : 132,
+        "buckets" : [
+          {
+            "key" : "Not Applicable",
+            "doc_count" : 18105
+          },
+          {
+            "key" : "",
+            "doc_count" : 195
+          },
+          {
+            "key" : "Mount Airy",
+            "doc_count" : 59
+          },
+          {
+            "key" : "Berlin",
+            "doc_count" : 19
+          },
+          {
+            "key" : "Westminster",
+            "doc_count" : 19
+          },
+          {
+            "key" : "Leonardtown",
+            "doc_count" : 10
+          },
+          {
+            "key" : "Walkersville",
+            "doc_count" : 9
+          },
+          {
+            "key" : "Grantsville",
+            "doc_count" : 8
+          },
+          {
+            "key" : "Salisbury",
+            "doc_count" : 8
+          },
+          {
+            "key" : "Frederick",
+            "doc_count" : 7
+          }
+        ]
+      }
     }
   }
-}
-```
+  ```
+
+
+

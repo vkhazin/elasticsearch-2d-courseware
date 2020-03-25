@@ -1,8 +1,8 @@
-# Range Aggregation #
+# Range Aggregation
 
-* Statically defines buckets for aggregation using value ranges, 0-50, 51-100, 100-*:
-```
-curl -XPOST 'localhost:9200/orders/orders/_search?pretty=true' \
+* Statically defines buckets for aggregation using value ranges, 0-50, 51-100, 100-\*:
+  ```
+  curl -XPOST 'localhost:9200/orders/_search?pretty=true' \
   -H 'content-type: application/json' \
   -d '{
   "aggs" : {
@@ -17,11 +17,11 @@ curl -XPOST 'localhost:9200/orders/orders/_search?pretty=true' \
       }
     }
   }
-}'
-```
+  }'
+  ```
 * Result:
-```
-{
+  ```
+  {
   ...
   "aggregations": {
     "order-amount" : {
@@ -42,5 +42,8 @@ curl -XPOST 'localhost:9200/orders/orders/_search?pretty=true' \
       ]
     }
   }
-}
-```
+  }
+  ```
+
+
+

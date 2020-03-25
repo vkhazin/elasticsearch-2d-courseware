@@ -1,12 +1,12 @@
-# Date Histogram Aggregation #
+# Date Histogram Aggregation
 
-* Aggregation that can be applied on date/time field values extracted from the documents
-* Builds fixed size buckets based on the interval dynamically:
-```
-curl -XPOST 'localhost:9200/orders/orders/_search?pretty=true' \
+* The aggregation that can be applied on date/time field values extracted from the documents
+* Builds fixed-size buckets based on the interval dynamically:
+  ```
+  curl -XPOST 'localhost:9200/orders/_search?pretty=true' \
   -H 'content-type: application/json' \
   -d '
-{
+  {
   "size": 0,
   "aggs": {
     "placedOnMonth": {
@@ -17,12 +17,12 @@ curl -XPOST 'localhost:9200/orders/orders/_search?pretty=true' \
        }
     }
   }
-}
-'
-```
+  }
+  '
+  ```
 * Results:
-```
-{
+  ```
+  {
   ...
   "aggregations" : {
     "placedOnMonth" : {
@@ -39,5 +39,8 @@ curl -XPOST 'localhost:9200/orders/orders/_search?pretty=true' \
         "key" : 1456790400000,
         "doc_count" : 0
       }, {
-...
-```
+  ...
+  ```
+
+
+

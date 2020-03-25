@@ -31,7 +31,7 @@ curl -XPOST 'localhost:9200/movies/movies/_search?pretty=true' \
 }'
 ```
 * What buckets did you get?
-* How do I get more than 10 buckets? <a href="http://stackoverflow.com/questions/22927098/show-all-elasticsearch-aggregation-results-buckets-and-not-just-10" target="_blank">Check StackOverflow posting!</a>
+* How do I get more than 10 buckets? [Check StackOverflow posting!](http://stackoverflow.com/questions/22927098/show-all-elasticsearch-aggregation-results-buckets-and-not-just-10)
 * What is 'sum_other_doc_count' field?
 * Let's find out average movie rating for the actor:
 ```
@@ -57,5 +57,5 @@ curl -XPOST 'localhost:9200/movies/movies/_search?pretty=true' \
 }
 '
 ```
-* Take a moment to understand the variety of <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html" target="_blank">aggregation types</a>
+* Take a moment to understand the variety of [aggregation types](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html)
 * Pick an aggregation we did not cover in the slides and make it work
