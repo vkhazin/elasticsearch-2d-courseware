@@ -21,7 +21,7 @@
 * Capable of handling numbers, booleans, dates, and text
 * Often used as a filter rather than for scoring, commonly used with `constant_score`:
   ```
-  curl -XPOST 'localhost:9200/orders/_doc/_search?pretty=true' \
+  curl -XPOST 'localhost:9200/orders/_search?pretty=true' \
   -H 'content-type:application/json' \
   -d '{
   "query" : {
