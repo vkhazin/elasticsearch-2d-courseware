@@ -1,8 +1,8 @@
 # Query Uri #
 
-* In addition to json dsl there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-uri-request.html" target="_blank">URI Search</a>
+* In addition to json dsl there is [URI Search](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-uri-request.html)
 * Support is more limited than json Dsl, but Kibana seems to be just fine with it
-* <b>q</b> parameter allows to specify query in lucene formatted query:
+* **q** parameter allows specifying query in Lucene formatted query:
 ```
 curl 'localhost:9200/orders/_doc/_search?q=placedOn:*&pretty=true'
 ```
