@@ -1,14 +1,14 @@
-# Query Uri #
+# Query Uri
 
-* In addition to json dsl there is [URI Search](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-uri-request.html)
-* Support is more limited than json Dsl, but Kibana seems to be just fine with it
+* In addition to Json Dsl there is [URI Search](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-uri-request.html)
+* Support is more limited than Json Dsl, but Kibana seems to be just fine with it
 * **q** parameter allows specifying query in Lucene formatted query:
-```
-curl 'localhost:9200/orders/_doc/_search?q=placedOn:*&pretty=true'
-```
+  ```
+  curl 'localhost:9200/orders/_search?q=placedOn:*&pretty=true'
+  ```
 * Expected result:
-```
-{
+  ```
+  {
   ...
   "hits" : {
     "total" : 1,
@@ -16,7 +16,6 @@ curl 'localhost:9200/orders/_doc/_search?q=placedOn:*&pretty=true'
     "hits" : [ 
       {
         "_index" : "ordering",
-        "_type" : "_doc",
         "_id" : "3",
         "_score" : 0.30685282,
         "_source" : {
@@ -28,5 +27,8 @@ curl 'localhost:9200/orders/_doc/_search?q=placedOn:*&pretty=true'
       ...
     ]
   }
-}
-```
+  }
+  ```
+
+
+
