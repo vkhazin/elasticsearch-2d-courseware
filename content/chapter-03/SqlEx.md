@@ -6,7 +6,7 @@
   ```
   curl 'localhost:9200/collisions/_search?pretty=true'
   ```
-* Use the rest api or sql-cli
+* Use the rest API or sql-cli
 * Repeat the filter and search choices experimented with in the last two labs using sql syntax
 * Do you notice any differences in behaviour?
 
