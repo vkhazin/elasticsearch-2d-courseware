@@ -11,8 +11,7 @@
   {
   ...
   "hits" : {
-    "total" : 1,
-    "max_score" : 0.30685282,
+    ...
     "hits" : [ 
       {
         "_index" : "ordering",
