@@ -1,16 +1,6 @@
 # Course: Elastic.co Products #
 
-<p align="right">
-    <i>
-        <a href="https://www.linkedin.com/in/vkhazin" target="_blank">by Vlad Khazin</a>
-    </i>
-    &nbsp;
-    <a>
-        <img alt="Build Status"
-             style="border-width:0"
-             src="https://travis-ci.org/vkhazin/elasticsearch-courseware-2d.svg?branch=master">
-    </a>    
-</p>
+[by Vlad Khazin](https://www.linkedin.com/in/vkhazin) ![](https://travis-ci.org/vkhazin/elasticsearch-courseware-2d.svg?branch=master)
 
 * Course materials can be accessed [online1](http://elasticsearch-2d-courseware.surge.sh/) or [online2](https://vkhazin.gitbooks.io/elasticsearch-courseware-2d/)
 * If you did not have a chance to fill-out [pre-course survey](https://www.surveymonkey.com/r/SRBF5DF), please do so now
