@@ -10,17 +10,17 @@
   ```
   {
   ...
-  "hits" : {
+  "hits": {
     ...
-    "hits" : [ 
+    "hits": [
       {
-        "_index" : "ordering",
-        "_id" : "3",
-        "_score" : 0.30685282,
-        "_source" : {
-          "id" : "3",
-          "placedOn" : "2016-10-01T00:00:00Z",
-          "status" : "shipped"
+        "_index": "ordering",
+        "_id": "3",
+        "_score": 0.30685282,
+        "_source": {
+          "id": "3",
+          "placedOn": "2016-10-01T00:00:00Z",
+          "status": "shipped"
         }
       }, 
       ...
