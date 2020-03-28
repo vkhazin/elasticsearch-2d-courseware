@@ -1,12 +1,15 @@
-# Logs Processing - Output #
+# Logs Processing - Output
 
- * Last phase in the logstash pipeline specifies where the parsed logs should go
- * Configuration:
+* Last phase in the logstash pipeline specifies where the parsed logs should go
+* Configuration:
   ```
   output {
-   elasticsearch {
-     hosts => ["http://localhost:9200"]
-     index => "cloud-init"
-   }
+    elasticsearch {
+      hosts => ["http://localhost:9200"]
+      index => "cloud-init"
+    }
   }
   ```
+
+
+
