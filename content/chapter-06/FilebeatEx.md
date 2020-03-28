@@ -8,7 +8,8 @@
    ```
 4. Add repository to the list, **not required** as we have done it before:
    ```
-   echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list
+   echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | \
+       sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
    ```
 5. Install Filebeat from the repository:
    ```
@@ -34,10 +35,12 @@
     hosts: ["localhost:9200"]
    ```
 
-8. Start Filebeat service and check the status:  
+8. Start Filebeat service and check the status:
+
    ```
    sudo systemctl restart filebeat
    ```
+
 9. Query ElasticSearch using `curl` to confirm new index has been created e.g.: `filebeat-7.6.1-2020.03.28-000001`
    ```
    curl localhost:9200/_cat/indices
