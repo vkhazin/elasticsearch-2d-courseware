@@ -4,7 +4,7 @@
    ```
    wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
    ```
-2. Add repository definition, not required as we have added it previously:  
+2. Add repository definition, **not required** as we have added it previously:  
    ```
    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | \
        sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list &&
@@ -22,17 +22,20 @@
 5. `-e` enables specifying configuration directly from the command line
 6. stdin: filehandle that process reads to get information from you, human
 7. stdout: process writes log information to this filehandle
-8. After the pipeline has started  
+8. After the pipeline has started
+
    ```
    ...Pipelines running...
    ```
 
    type in the terminal:
+
    ```
    Hello World!
    ```
 
    And press enter
+
 9. Expected response:
    ```
    {
