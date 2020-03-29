@@ -8,7 +8,7 @@
 6. Select `Load a data set and a Kibana dashboard`
 7. Select `Sample web logs`
 8. Select `Maps` on the left menu and then sample visualization `[Logs] Total Requests and Bytes`
-9. Explore the behaviour and somewhat confusing configuration options
+9. Explore the behaviour and, somewhat, confusing configuration options
 
 
 
