@@ -1,10 +1,14 @@
-# Docker Cluster #
+# Docker Cluster
 
-* In our exercise we have used single docker host
-* For production we rather use multiple hosts to run our containers
-* <a href="https://docs.docker.com/engine/swarm/" target="_target">Docker Swarm</a> provides orchestration up-to 1,000 nodes and 30,000 containers
-![Swarm Diagram](../../media/swarm-diagram.png)
-* docker-compose orchestrates launching multiple containers at once using <a href="https://github.com/darienmt/airplane-adventures/blob/master/Docker/elk-containers/docker-compose.yml" target="_blank">docker-compose.yml</a>
-* In addition to Docker Swarm there is also <a href="https://kubernetes.io/" target="_blank">Google Kubernetes</a>, <a href="http://mesos.apache.org/" target="_blank">Apache Mesos</a>, and likely others
-* <a href="http://techgenix.com/swarm-kubernetes-mesos/" target="_blank">Comparison from techgenix</a>
-* In addition to self-hosted version of docker there are <a href="http://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html" target="_blank">Aws Container Service</a>, <a href="https://cloud.google.com/container-engine/" target="_blank">Google Container Engine</a>, <a href="https://cloud.docker.com" target="_blank">Docker Cloud</a>, and <a href="https://azure.microsoft.com/en-us/services/container-service/" target="_blank">Azure Container Service</a>
+* In our exercise, we have used single docker host
+* For production, we rather use multiple hosts to run our containers
+* [Docker Swarm](https://docs.docker.com/engine/swarm/) provides orchestration up-to 1,000 nodes and 30,000 containers
+  ![Swarm Diagram](../../media/swarm-diagram.png)
+* docker-compose orchestrates launching multiple containers at once using [docker-compose.yml](https://github.com/darienmt/airplane-adventures/blob/master/Docker/elk-containers/docker-compose.yml)
+* In addition to Docker Swarm there is also [Google Kubernetes](https://kubernetes.io/), [Apache Mesos](http://mesos.apache.org/), and likely others
+* [Comparison from techgenix](http://techgenix.com/swarm-kubernetes-mesos/)
+* Kubernetes seems to be a market favourite at the moment
+* In addition to the self-hosted version of docker, there are Aws Kubernetes Service, Google Container Engine, Docker Cloud, and Azure Container Service
+
+
+
