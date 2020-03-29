@@ -7,8 +7,8 @@
 * Driven by a simple, one-line expression language 
 * Combined data retrieval, time series combination and transformation, plus visualization
 * Pulling data from ElasticSearch: .es\(\*\)
-* Can pull data from an external source, e.g. [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/898590-api-country-queries)
-* Functionality is so new/raw - can almost smell the fresh paint
+* Can pull data from an external source, e.g. [World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/898590-api-country-queries), seems to be having some issues in v7.6.1
+* Functionality is great, but far from self-explanatory
 
 
 

@@ -1,19 +1,14 @@
-# Coordinate Map #
+# Map
 
-* Previously 'Tile Map'
-* Possibly the most interesting visualization
-* Requires mappings to be configured with geo_point type
-* For previously populated log data cannot modify mapping for coordinates
-* We will have to delete the indices created, re-create indices with mapping, and to re-populate data
-* Shell script prepared for you
-* Download and execute on the sandbox by running the following command:
-  ```
-  curl -s https://s3.us-east-2.amazonaws.com/elasticsearch-courseware/sample-data/logMappings.sh | bash -
-  ```
-* Go back to Visualize tab and select 'Coordinate map'
-* Here it is a bit tricky - may need to go back to settings and refresh the fields
-* Select 'Geo Coordinates' and select 'geo.coordinates' field
-* Select 'play' button on top to apply changes and explore zoom in/out
-* Switch to advanced options and check-out [wms](https://en.wikipedia.org/wiki/Web_Map_Service)
-* As versions of Kibana change the support for web map service works on and off
-* There are [terms of service](https://www.elastic.co/elastic-tile-service) for the tile service apparently separate from the elastic search product, go figure...
+1. Previously `Coordinate Map` and `Tile Map`, names and functionality changes with releases
+2. New versions are often breaking the previous visualization
+3. Possibly the most interesting visualization
+4. Requires mappings to be configured with geo\_point type
+5. Install sample data provided by elastic by navigating to your instance [http://ipaddress:5601](http://ipaddress:5601)
+6. Select `Load a data set and a Kibana dashboard`
+7. Select `Sample web logs`
+8. Select `Maps` on the left menu and then sample visualization `[Logs] Total Requests and Bytes`
+9. Explore the behaviour and somewhat confusing configuration options
+
+
+
