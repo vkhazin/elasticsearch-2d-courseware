@@ -16,7 +16,8 @@
 14. Adding another metric to the chart: `.es(), .es(metric=max:memory).divide(100)`
 15. Can add data from a World Bank, e.g. world population in billions:
      `.es(),.wbi(indicator=SP.POP.TOTL).divide(10000000)`
-16. You are getting the idea of a potential...
+16. `.quandl `can be used to query financial data: 
+17. You are getting the idea of a potential...
 
 
 
