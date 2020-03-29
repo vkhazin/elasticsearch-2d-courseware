@@ -36,7 +36,7 @@
    ```
    sudo docker ps -a
    ```
-9. Expected output is a list with two containers: `hello-world` and `elastic`
+9. The expected output is a list with two containers: `hello-world` and `elastic`
 10. To stop running container, copy `container id` to replace in the command: 
     ```
     sudo docker stop 8ed07e81b59c
