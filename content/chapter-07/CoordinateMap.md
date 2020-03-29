@@ -14,6 +14,6 @@
 * Here it is a bit tricky - may need to go back to settings and refresh the fields
 * Select 'Geo Coordinates' and select 'geo.coordinates' field
 * Select 'play' button on top to apply changes and explore zoom in/out
-* Switch to advanced options and check-out <a href="https://en.wikipedia.org/wiki/Web_Map_Service" target="_blank">wms</a>
+* Switch to advanced options and check-out [wms](https://en.wikipedia.org/wiki/Web_Map_Service)
 * As versions of Kibana change the support for web map service works on and off
-* There are <a href="https://www.elastic.co/elastic-tile-service" target="_blank">terms of service</a> for the tile service apparently separate from the elastic search product, go figure...
+* There are [terms of service](https://www.elastic.co/elastic-tile-service) for the tile service apparently separate from the elastic search product, go figure...
