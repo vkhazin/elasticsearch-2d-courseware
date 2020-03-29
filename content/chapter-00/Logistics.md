@@ -1,4 +1,4 @@
-# Logistics #
+# Logistics
 
 * All times are in [Paris Time Zone](https://time.is/Paris)
 * Start at 8:30
@@ -12,3 +12,6 @@
 * Questions, open discussions, and comments are encouraged
 * Keep it professional and polite
 * Let's have fun
+
+
+
