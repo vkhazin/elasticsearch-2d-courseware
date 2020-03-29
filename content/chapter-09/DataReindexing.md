@@ -2,7 +2,7 @@
 
 * Every so often you may run into changes required in mapping for existing fields
 * As per our previous attempts updating mapping for existing fields is not possible
-* The only solution I am aware of: create new index with new mapping and move data over
+* The only solution I am aware of: create a new index with new mapping and move data over
 * To move data reliably in ETL \(extract, transform, and load\) like fashion: scan API is useful
 * To initiate a scroll:
   ```
