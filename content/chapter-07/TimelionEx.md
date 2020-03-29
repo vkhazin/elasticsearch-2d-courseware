@@ -14,7 +14,9 @@
 12. Add some custom color to the time series: `.es(*), .es(*,offset=-1h).color(yellow)` and select the play button
 13. Convert line to bars: `.es(*), .es(*,offset=-1h).bars().color(yellow)` and select play button again
 14. Adding another metric to the chart: `.es(), .es(metric=max:memory).divide(100)`
-15. You are getting the rough idea of a potential...
+15. Can add data from a World Bank, e.g. world population in billions:
+     `.es(),.wbi(indicator=SP.POP.TOTL).divide(10000000)`
+16. You are getting the idea of a potential...
 
 
 
