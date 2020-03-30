@@ -11,7 +11,7 @@
     -H 'Content-Type: application/json' \
     -d '{"id": "1", "placedOn": "2016-10-17T13:03:30.830Z"}'
   ```
-* Retrieving existing mappings: `curl 'localhost:9200/orders/_doc/_mapping?pretty=true'`
+* Retrieving existing mappings: `curl 'localhost:9200/orders/_mapping?pretty=true'`
 * Expected response:
   ```
   {
