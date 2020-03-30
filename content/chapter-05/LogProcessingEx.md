@@ -3,7 +3,7 @@
 1. Log-in into your ElasticSearch sandbox
 2. Make sure elastic search is running:
    ```
-   sudo service elasticsearch restart
+   sudo systemctl restart elasticsearch
    ```
 3. Create a configuration file:
    ```
@@ -37,23 +37,25 @@
    ```
 
 5. Logstash loads all files in the `/etc/logstash/conf.d` directory, store no extra files there
+
 6. Restart `logstash` service and monitor messages:
+
    ```
-   sudo service logstash stop && \
-   sudo service logstash start && \
+   sudo systemctl restart logstash && \
    sleep 10s && \
    sudo tail -f -n 100 /var/log/logstash/logstash-plain.log
    ```
+
 7. Check the data has been populated into elastic search:
    ```
    curl localhost:9200/cloud-init/_search?pretty=true
    ```
-8. Expected results is a long list of parsed log events
-9. Logstash records position for each file processed, to restart processing locate sincedb files:
+8. The expected result is a long list of parsed log events
+9. Logstash records position for each file processed, to restart processing locate `sincedb` files:
    ```
    sudo find / -name *.*sincedb*
    ```
-10. And delete desired `sincedb` files to restart the ingest process
+10. And delete the desired `sincedb` files to restart the ingest process
 11. In case of troubles, check `/var/log/logstash` log files for errors
 
 

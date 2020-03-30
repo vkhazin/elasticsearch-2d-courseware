@@ -1,9 +1,9 @@
 # Filter Exercise
 
-* Login into your ElasticSearch sandbox
-* Make sure elastic search is running:
+* Login in to your ElasticSearch sandbox
+* Make sure the elastic search service is running:
   ```
-  sudo service elasticsearch restart
+  sudo systemctl restart elasticsearch
   ```
 * Populate few sample data borrowed from [data.gov](https://catalog.data.gov/dataset):
   ```

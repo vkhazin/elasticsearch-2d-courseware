@@ -3,9 +3,10 @@
 * Login into your ElasticSearch sandbox
 * Make sure elastic search is running:
   ```
-  sudo service elasticsearch restart
+  sudo systemctl restart elasticsearch
   ```
-* Populate few orders:
+* Populate a few orders:
+
   ```
   curl -XPOST localhost:9200/orders/_doc/2 \
   -H 'content-type: application/json' \
@@ -39,6 +40,7 @@
   "status": "received"
   }'
   ```
+
 * Confirm there are some records to search on:
   ```
   curl 'localhost:9200/orders/_search?pretty=true'

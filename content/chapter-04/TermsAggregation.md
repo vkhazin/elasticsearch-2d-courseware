@@ -2,30 +2,30 @@
 
 * Terms aggregation query: 
   ```
-  curl -XPOST 'http://localhost:9200/orders/_search?pretty=true' \
-  -H 'content-type: application/json' \
-  -d '
-  {
-  "size": 0, 
-  "aggregations": {
-    "order-status": {
-      "terms": {
-        "field": "status.keyword"
-      }
-    }
-  }
-  }'
+  curl -XPOST 'http://localhost:9200/collisions/_search?pretty=true' \
+      -H 'content-type: application/json' \
+      -d '
+      {
+          "size": 0,
+              "aggregations": {
+                  "city": {
+                      "terms": {
+                      "field": "CITY_NAME.keyword"
+                  }
+              }
+          }
+      }'
   ```
 * "size": 0 - suppress query results to fetch aggregations results only
 * "aggregations" or "aggs" - part of ElasticSearch Dsl
 * "order-status" - an arbitrary name for aggregation
-* "terms" - type of aggregation to use
+* "terms" - the type of aggregation to use
 * Results:
   ```
   {
     ...
     "aggregations" : {
-      "order-status" : {
+      "city" : {
         "doc_count_error_upper_bound" : 0,
         "sum_other_doc_count" : 132,
         "buckets" : [

@@ -1,8 +1,8 @@
-# Logs Processing - Input #
+# Logs Processing - Input
 
 * Typical pipeline is a bit more than the hello-world example: one or more input, filter, and output plugins
 * We will configure Logstash to pickup log files and to send data to ElasticSearch
-* Log file: /var/log/cloud-init.log file, snippet of data:
+* Log file: `/var/log/cloud-init.log` file, a snippet of data:
   ```
   2017-06-21 22:18:25,270 - helpers.py[DEBUG]: config-keys-to-console already ran (freq=once-per-instance)
   2017-06-21 22:18:25,266 - helpers.py[DEBUG]: config-mcollective already ran (freq=once-per-instance)
@@ -21,3 +21,6 @@
     }
   }
   ```
+
+
+
