@@ -1,5 +1,8 @@
-# Chapter 3: Search #
+# Chapter 3: Search
 
 * Understanding Query DSL
 * Filter compared to Search
 * Sql syntax
+
+
+
