@@ -10,7 +10,7 @@
 
 ## TODO
 
-* v7 types support?
-* 
+* Add a slide for docker hub
+
 
 

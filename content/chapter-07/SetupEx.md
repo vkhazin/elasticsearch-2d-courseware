@@ -12,7 +12,8 @@
 4. From terminal add repository definitions, **not required** as we have done it before:
    ```
    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | \
-       sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+       sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list %% \
+       sudo apt-get update
    ```
 5. Update repositories and install Kibana:
    ```
@@ -47,15 +48,15 @@
     ```
 14. You can also see them listed below the `Index Pattern` field
 15. After typing the index name pattern with a star proceed to the next step
-16. Kibana \(by default\) requires a date-time field to filter data on
+16. Kibana, by default, requires a date-time field to filter data on
 17. By default, Kibana displays data for the last 15 minutes and in a simulated environment it is often an empty result set
-18. Look at the top-right corner to adjust the timeframe
+18. Look at the top-right corner to adjust the timeframe to 5 years
 19. You should be able to see some data now, if not, common troubles are index pattern configuration and a timeframe selection
 20. There is a star icon or a maybe another way in the future version to set the index pattern as a default
-21. Head to the 'Discover' link on the left
-22. Adjust time-frame in the top-right corner to 'last 5 years'
+21. Head to the `Discover` link on the left
+22. Adjust time-frame in the top-right corner to `last 5 years`
 23. Use the search box to locate some record using KQL syntax: `bytes > 0` or [legacy Lucene syntax](https://www.elastic.co/guide/en/kibana/current/lucene-query.html): `extension:gif`
-24. Select 'add' link next to few fields to present selected fields on the results pane
+24. Select the `add` link next to few fields to present selected fields on the results pane
 25. Select any record and switch between Text and Json views
 26. Save search using the link on top of the page
 27. Get comfortable with running Lucene syntax queries using the search box - you are going to need it moving forward

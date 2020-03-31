@@ -1,6 +1,6 @@
 # Canvas Exercise
 
-1. Install sample data provided by elastic by navigating to your instance [http://ipaddress:5601](http://ipaddress:5601)
+1. Navigate to your instance [http://ipaddress:5601](http://ipaddress:5601)
 2. Select `Canvas` link on the left-hand menu
 3. Select `Create workpad` -&gt; `Add element` -&gt; `Donut chart`
 4. Select `Data` -&gt; `Change your data source` -&gt; `Elasticsearch sql query`:
