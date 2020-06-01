@@ -4,10 +4,10 @@
 * Example:
 
   ```
-  curl -POST 'localhost:9200/_xpack/sql?format=txt' \
+  curl -XPOST 'localhost:9200/_xpack/sql?format=txt' \
       -H 'content-type:application/json' \
       -d '{
-      "query": "SELECT ACC_DATE, ACC_TIME, BARRACK FROM collisions WHERE BARRACK='\'Rockville\'' LIMIT 5"
+      "query": "SELECT ACC_DATE, ACC_TIME, BARRACK FROM collisions WHERE BARRACK='\'rockville\'' LIMIT 5"
       }'
   ```
 
