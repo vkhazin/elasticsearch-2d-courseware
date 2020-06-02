@@ -46,7 +46,7 @@
    }
    ```
 10. Logstash adds a timestamp, version and the hostname to the message we sent
-11. To exit Logstash use keyboard combination ctrl-d and it will shut down the process
+11. To exit Logstash use keyboard combination `ctrl-d` and it will shut down the process
 
 
 

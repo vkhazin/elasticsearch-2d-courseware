@@ -9,8 +9,7 @@
    ```
 5. Select `Display`
 6. Under `Slice labels` select `Value` and `clientip`
-7. Under `Slice angles` select `Count` and `clientip`
-8. Feel free to add additional elements and/or to explore the sample `[Logs] Web Traffic`
+7. Feel free to add additional elements and/or to explore the sample `[Logs] Web Traffic`
 
 
 
