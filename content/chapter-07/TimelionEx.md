@@ -16,8 +16,5 @@
 14. Adding another metric to the chart: `.es(), .es(metric=max:memory).divide(100)`
 15. Can add data from a World Bank, e.g. world population in billions:
      `.es(),.wbi(indicator=SP.POP.TOTL).divide(10000000)`
-16. The world bank indicators may experience intermittent issues when querying
+16. The world bank indicators may experience intermittent issues when querying and may stop working over time
 17. You are getting the idea of a potential...
-
-
-
