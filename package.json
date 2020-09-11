@@ -4,12 +4,7 @@
   "description": "<p align=\"right\"><i><a href=\"https://www.linkedin.com/in/vkhazin\" target=\"_blank\">by Vlad Khazin</a></i></p>",
   "main": "index.js",
   "scripts": {},
-  "dependencies": {
-    "gitbook": "^3.2.2",
-    "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-footer": "^0.0.6",
-    "surge": "^0.19.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "author": "Vlad Khazin",
   "license": "by-nc-sa"
