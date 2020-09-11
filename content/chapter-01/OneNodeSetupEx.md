@@ -87,8 +87,7 @@
 16. Where are: doc id, document data, index name, type name, and search score?
 17. Next time you can run the setup script at once:
     ```
-    curl https://gist.githubusercontent.com/vkhazin/6b0e44387368439af8e1750a1a0fa008/raw/02bbac1f7bf0c76e3dd49284da28f253f8ad5c73/Install%2520ElasticSearch%2520v7%2520on%2520Ubuntu%252018.04 \\
-     | bash -
+    curl https://gist.githubusercontent.com/vkhazin/6b0e44387368439af8e1750a1a0fa008/raw/02bbac1f7bf0c76e3dd49284da28f253f8ad5c73/Install%2520ElasticSearch%2520v7%2520on%2520Ubuntu%252018.04 | bash -
     ```
 
 
