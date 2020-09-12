@@ -7,7 +7,10 @@
     "start": "./node_modules/.bin/gitbook serve"
   },
   "dependencies": {
-    "gitbook-plugin-footer": "^0.0.6"
+    "gitbook": "^2.6.9",
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-footer": "^0.0.6",
+    "surge": "^0.21.6"
   },
   "devDependencies": {},
   "author": "Vlad Khazin",
