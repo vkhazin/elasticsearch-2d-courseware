@@ -1,4 +1,4 @@
-# Setup Excercise
+# Setup Exercise
 
 1. Download and install the Public Signing Key, not required as we have added it previously:  
    ```
@@ -46,7 +46,7 @@
    }
    ```
 10. Logstash adds a timestamp, version and the hostname to the message we sent
-11. To exit Logstash use keyboard combination `ctrl-d` and it will shut down the process
+11. To exit use keyboard combination `Ctrl-D` or `Ctrl-C` to shut down the logstash process
 
 
 

@@ -1,8 +1,8 @@
 # Sql
 
 * Access full-text search, blazing speed, and effortless scalability using a familiar query syntax
-* Sample query:
-  "SELECT ACC_DATE, ACC_TIME, BARRACK FROM collisions WHERE BARRACK='rockville' LIMIT 5"`
+* Sample query:  
+  `"SELECT ACC_DATE, ACC_TIME, BARRACK FROM collisions WHERE BARRACK='rockville' LIMIT 5"`
 * Result:
   ```
          ACC_DATE       |   ACC_TIME    |    BARRACK    

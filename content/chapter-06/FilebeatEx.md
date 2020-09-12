@@ -16,7 +16,7 @@
    ```
    sudo apt-get install filebeat
    ```
-6. Configure the location of log files:
+6. Configure the location of log files using `nano` or your favorite terminal editor:
    ```
    sudo nano /etc/filebeat/filebeat.yml
    ```
@@ -40,6 +40,7 @@
 
    ```
    sudo systemctl restart filebeat
+   sudo systemctl status filebeat
    ```
 
 9. Query ElasticSearch using `curl` to confirm new index has been created e.g.: `filebeat-7.6.1-2020.03.28-000001`
@@ -48,7 +49,7 @@
    curl localhost:9200/_cat/indices
    ```
 
-10. Query the data inside the newly created index
+10. Query the data inside the newly created index, what is the end-point do you use to query a specific index?
 11. Review more [options](https://www.elastic.co/guide/en/beats/filebeat/current/elasticsearch-output.html) for elastic search output
 
 
