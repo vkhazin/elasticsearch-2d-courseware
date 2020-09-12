@@ -2,12 +2,13 @@
   "name": "elasticsearch-courseware-2d",
   "version": "1.0.0",
   "description": "<p align=\"right\"><i><a href=\"https://www.linkedin.com/in/vkhazin\" target=\"_blank\">by Vlad Khazin</a></i></p>",
-  "main": "index.js",
+  "engines" : { 
+    "node" : "12.14.1" 
+  },
   "scripts": {
     "start": "./node_modules/.bin/gitbook serve"
   },
   "dependencies": {
-    "gitbook": "^2.6.9",
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-footer": "^0.0.6",
     "surge": "^0.21.6"
