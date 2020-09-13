@@ -9,7 +9,7 @@
    ```
    sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" \
      -e "transport.host=127.0.0.1" \
-     docker.elastic.co/elasticsearch/elasticsearch-oss:7.6.1
+     docker.elastic.co/elasticsearch/elasticsearch-oss:7.9.1
    ```
 4. -d: run detached not to take over command prompt
 5. -e: parameters accepted/expected by the image

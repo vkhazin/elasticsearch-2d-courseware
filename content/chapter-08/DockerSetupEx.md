@@ -1,11 +1,11 @@
 # Docker Setup Exercise #
 
-1. Install using Ubuntu repositories: ```sudo apt install docker.io -y```
+1. Install using Ubuntu repositories: `sudo apt install docker.io -y`
 2. Alternatively, by downloading from [download.docker.com](https://download.docker.com/)
-3. Checking that docker cli (command line interface) is installed: ```docker --version```
-4. Checking that docker daemon is running: ```sudo docker images```
+3. Checking that docker cli (command line interface) is installed: `docker --version`
+4. Checking that docker daemon is running: `sudo docker images`
 5. Expected output is an empty list as we have not created/pulled any images
-6. Running your first container: ```sudo docker run hello-world```
+6. Running your first container: `sudo docker run hello-world`
 7. Expected output:
   ```
   78445dd45222: Pull complete  
@@ -14,5 +14,5 @@
   Hello from Docker!  
   ... more text comes here...  
   ```
-8. List local containers: ```sudo docker ps -a```
+8. List local containers: `sudo docker ps -a`
 9. Expected output is a list with one item on it
