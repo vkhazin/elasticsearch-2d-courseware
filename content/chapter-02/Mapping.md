@@ -1,6 +1,7 @@
 # Mapping
 
-* Defines how document and its fields are stored and indexed
+* Flexible schema: index a document and field mappings will be derived automatically
+* Mapping defines how a document and its fields are stored and indexed
 * Mapping can be derived dynamically by ElasticSearch
 * A handful of core data types are [supported](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html)
 * Mapping can be added to an existing index for _**new fields**_
