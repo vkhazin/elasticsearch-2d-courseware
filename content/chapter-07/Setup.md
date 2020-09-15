@@ -7,7 +7,7 @@
    ```
    server.port: 5601
    server.host: "0.0.0.0"
-   elasticsearch.url: "http://localhost:9200"
+   elasticsearch.hosts: ["http://localhost:9200"]
    ```
 5. Additional settings are detailed [here](https://github.com/elastic/kibana/blob/master/config/kibana.yml)
 6. Kibana can be installed on the same nodes where Elastic Search is running, or on separate nodes

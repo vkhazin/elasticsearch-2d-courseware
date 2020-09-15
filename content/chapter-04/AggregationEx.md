@@ -33,7 +33,7 @@ curl -XPOST 'localhost:9200/movies/movies/_search?pretty=true' \
 * What buckets did you get?
 * How do I get more than 10 buckets? [Check StackOverflow posting!](http://stackoverflow.com/questions/22927098/show-all-elasticsearch-aggregation-results-buckets-and-not-just-10)
 * What is 'sum_other_doc_count' field?
-* Let's find out average movie rating for the actor:
+* Let's find out an average movie rating for the actors:
 ```
 curl -XPOST 'localhost:9200/movies/movies/_search?pretty=true' \
   -H 'content-type:application/json' \
