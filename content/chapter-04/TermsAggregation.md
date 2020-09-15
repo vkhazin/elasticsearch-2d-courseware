@@ -18,7 +18,7 @@
   ```
 * "size": 0 - suppress query results to fetch aggregations results only
 * "aggregations" or "aggs" - part of ElasticSearch Dsl
-* "order-status" - an arbitrary name for aggregation
+* "city" - an arbitrary name for aggregation
 * "terms" - the type of aggregation to use
 * Results:
   ```

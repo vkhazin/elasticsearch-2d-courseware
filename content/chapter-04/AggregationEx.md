@@ -3,7 +3,7 @@
 * Log-in into your ElasticSearch sandbox
 * Make sure elastic search is running:
 ```
-sudo service elasticsearch restart
+sudo systemctl restart elasticsearch
 ```
 * Populate few sample movie data:
 ```
