@@ -33,23 +33,24 @@
    ```
 10. Expected response:
     ```
-    {
-      "name" : "ip-172-31-19-36",
+   {
+      "name" : "ip-172-31-2-16",
       "cluster_name" : "elasticsearch",
-      "cluster_uuid" : "9NP9kO4-S8qm8tMExZg9YA",
+      "cluster_uuid" : "ZH5wkpEESPqf8YwKWajRQA",
       "version" : {
-        "number" : "7.6.1",
-        "build_flavor" : "default",
-        "build_type" : "deb",
-        "build_hash" : "aa751e09be0a5072e8570670309b1f12348f023b",
-        "build_date" : "2020-02-29T00:15:25.529771Z",
-        "build_snapshot" : false,
-        "lucene_version" : "8.4.0",
-        "minimum_wire_compatibility_version" : "6.8.0",
-        "minimum_index_compatibility_version" : "6.0.0-beta1"
+         "number" : "7.14.0",
+         "build_flavor" : "default",
+         "build_type" : "deb",
+         "build_hash" : "dd5a0a2acaa2045ff9624f3729fc8a6f40835aa1",
+         "build_date" : "2021-07-29T20:49:32.864135063Z",
+         "build_snapshot" : false,
+         "lucene_version" : "8.9.0",
+         "minimum_wire_compatibility_version" : "6.8.0",
+         "minimum_index_compatibility_version" : "6.0.0-beta1"
       },
       "tagline" : "You Know, for Search"
-    }
+   }
+
     ```
 11. Posting the first document:
     ```bash

@@ -2,8 +2,8 @@
   "name": "elasticsearch-courseware-2d",
   "version": "1.0.0",
   "description": "<p align=\"right\"><i><a href=\"https://www.linkedin.com/in/vkhazin\" target=\"_blank\">by Vlad Khazin</a></i></p>",
-  "engines" : { 
-    "node" : "12.14.1" 
+  "engines": {
+    "node": "12.14.1"
   },
   "scripts": {
     "start": "./node_modules/.bin/gitbook serve"

@@ -2,7 +2,7 @@
 
 * There is also [sql-cli](https://www.elastic.co/guide/en/elasticsearch/reference/current/sql-cli.html):
   ```
-  $ sudo /usr/share/elasticsearch/bin/elasticsearch-sql-cli localhost:9200
+  sudo /usr/share/elasticsearch/bin/elasticsearch-sql-cli localhost:9200
   ```
 * From inside the shell, you can run sql statements directly e.g.:
   ```
