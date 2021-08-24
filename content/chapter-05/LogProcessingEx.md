@@ -38,25 +38,26 @@
 
 5. Logstash loads all files in the `/etc/logstash/conf.d` directory, store no extra files there
 
-6. Restart `logstash` service and monitor messages:
+6. Restart `logstash` service: `sudo systemctl restart logstash`
 
-   ```
-   sudo systemctl restart logstash && \
-   sleep 10s && \
-   sudo tail -f -n 100 /var/log/logstash/logstash-plain.log
-   ```
+1. Give it a moment
 
-7. Check the data has been populated into elastic search:
+1. Check logstash logs to rule out errors: `sudo tail -f -n 100 /var/log/logstash/logstash-plain.log`
+
+1. Verify the data has been populated into elastic search:
    ```
    curl localhost:9200/cloud-init/_search?pretty=true
    ```
-8. The expected result is a long list of parsed log events
-9. Logstash records position for each file processed, to restart processing locate `sincedb` files:
+1. The expected result is a long list of parsed log events
+
+1. Logstash records position for each file processed, to restart processing locate `sincedb` files:
    ```
    sudo find / -name *.*sincedb*
    ```
-10. And delete the desired `sincedb` files to restart the ingest process
-11. In case of troubles, check `/var/log/logstash` log files for errors
+
+1. And delete the desired `sincedb` files to restart the ingest process
+
+1. In case of troubles, check `/var/log/logstash` log files for errors
 
 
 
