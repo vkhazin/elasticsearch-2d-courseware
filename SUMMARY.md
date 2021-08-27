@@ -103,7 +103,7 @@
 * [Vertical Bar Chart](./content/chapter-07/VerticalBarChart.md)
 * [Vertical Bar Chart Exercise](./content/chapter-07/VerticalBarChartEx.md)
 * [Tag Cloud](./content/chapter-07/TagCloud.md)
-* [Map](./content/chapter-07/CoordinateMap.md)
+* [Map](./content/chapter-07/Map.md)
 * [Lens](./content/chapter-07/Lens.md)
 * [Dashboard](./content/chapter-07/Dashboard.md)
 * [Timelion](./content/chapter-07/Timelion.md)
