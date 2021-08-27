@@ -28,19 +28,19 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo 'Starting build and deploy...'
-
-      # Runs a set of commands using the runners shell
-      - name: Package & deploy to surge.sh
+      - name: 'Setup environment'
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
           SURGE_TOKEN: '${{ secrets.SURGE_TOKEN }}'
           SURGE_LOGIN: 'vladimir.khazin@icssolutions.ca'
+      
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo 'Starting package and deploy...'
 
+      # Runs a set of commands using the runners shell
+      - name: Package & deploy to surge.sh
         run: |
           npm install
           ./node_modules/.bin/gitbook install
