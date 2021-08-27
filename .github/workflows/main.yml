@@ -37,7 +37,10 @@ jobs:
       - name: Package & deploy to surge.sh
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node-version }}        
+          node-version: ${{ matrix.node-version }}
+          SURGE_TOKEN: '${{ secrets.SURGE_TOKEN }}'
+          SURGE_LOGIN: 'vladimir.khazin@icssolutions.ca'
+
         run: |
           npm install
           ./node_modules/.bin/gitbook install
