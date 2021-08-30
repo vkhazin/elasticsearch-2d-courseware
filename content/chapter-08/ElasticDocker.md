@@ -15,7 +15,7 @@
   ```
   sudo docker run -d -p 9201:9200 -e "http.host=0.0.0.0" \
      -e "transport.host=127.0.0.1" \
-     docker.elastic.co/elasticsearch/elasticsearch-oss:7.9.1
+     docker.elastic.co/elasticsearch/elasticsearch:7.14.0
   ```
 * -d: run in a detached mode
 * -e: define listener ip for API and for cluster communication
