@@ -12,5 +12,6 @@
    LIMIT 10
    ```
 5. Select `Display`
-6. Under `Slice labels` select `Value` and `clientip`
+6. For `Slice labels` select `Value` and `clientip`
+1. For `Slice Angles` select `Value` and `count`
 7. Feel free to add additional elements and/or to explore the sample `[Logs] Web Traffic`
