@@ -20,6 +20,3 @@
 * -d: run in a detached mode
 * -e: define listener ip for API and for cluster communication
 * -p: map host port to container port
-
-
-
