@@ -43,7 +43,7 @@
    sudo systemctl status filebeat
    ```
 
-9. Query ElasticSearch using `curl` to confirm new index has been created e.g.: `cloud-init`
+9. Query ElasticSearch using `curl` to confirm new index has been created e.g.: `filebeat-7.14.0-2021.08.31-000001`
 
    ```
    curl localhost:9200/_cat/indices
