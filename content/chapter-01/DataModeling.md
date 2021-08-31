@@ -1,7 +1,7 @@
 # Data Modeling Best Practices
 
 * Document is a unit of storage, indexing, search, and aggregation
-* 3rd norm of [normalization](https://en.wikipedia.org/wiki/Database_normalization) \(or beyond\) does not apply to ElasticSearch
+* 3rd form of [normalization](https://en.wikipedia.org/wiki/Database_normalization) \(or beyond\) does not apply to ElasticSearch
 * ElasticSearch supports no join or its equivalents
 * Document indexing, searching, and aggregation uses no locks
 * ElasticSearch designed for scalability
