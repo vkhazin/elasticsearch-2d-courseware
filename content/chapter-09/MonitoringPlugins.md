@@ -1,6 +1,6 @@
 # Monitoring Plug-ins #
 
-* ElasticSearch Cluster and Index RESFull Api allowed a lineup of plug-ins
+* ElasticSearch Cluster and Index REST Api allowed a lineup of plug-ins
 * <a href="https://www.elastic.co/products/x-pack/monitoring" target="_blank">X-Pack:</a> monitoring and cluster management dashboard by Elastic
 * <a href="http://mobz.github.io/elasticsearch-head/" target="_blank">Head</a> another commonly mentioned monitoring and management plugin
 * Head's user interface is a bit dated but it appears to require no license
