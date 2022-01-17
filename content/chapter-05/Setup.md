@@ -1,6 +1,6 @@
 # Setup
 
-* Logstash [requires Java 8 or Java 11](https://www.elastic.co/guide/en/logstash/current/installing-logstash.html) Oracle or OpenJDK
+* Logstash [requires Java 8, 11 or 16](https://www.elastic.co/guide/en/logstash/current/installing-logstash.html) Oracle or OpenJDK
 * Linux distribution repository is available similarly to other Elastic.co products
 * A [Docker image](https://www.elastic.co/guide/en/logstash/current/docker.html) has been made available by Elastic.co, more about docker later...
 * If installing manually - do not install into a directory path that contains **colon \(:\)** characters  
